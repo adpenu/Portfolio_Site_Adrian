@@ -1,6 +1,7 @@
 html{
   scroll-behavior: smooth;
 }
+*{box-sizing: border-box;}
 
 body {
   background-color: #FFFFFF;
@@ -43,11 +44,12 @@ img {
 a{
   color: #FF6F00;
   text-decoration:none; /*no underlying*/
-
 }
 a:hover{
   color: #FFB31A;
   text-decoration: underline; /*underlying when hovering over a link*/
+  transition-duration: 0.2s ;
+  transition-property: opacity;
 }
 
 a:active{ /*selected link*/
@@ -66,8 +68,9 @@ a:focus{
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #994c30; /*width of the border, type, color*/
-  transition: 0.2s opacity;
+  border-bottom: 2px #994c30; /*width of the border, type, color*/
+  transition-duration: 0.2s ;
+  transition-property: opacity;
 }
 .button:hover {
   opacity: 0.8;
@@ -103,24 +106,37 @@ header{
 
 /*Layout styling*/
 .container{
-  padding: 0 15px;
+  padding: 0 20px;
 }
 #hero .container p{
   text-align: center;
 }
+#contact{
+display: inline-block;
+text-align: center;
+padding-bottom: 10px;
+text-decoration: none;
+width: 100%;
+}
+
+footer ul {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+}
+}
 .row{
   margin: 25px 0; /* 25px top and bottom, 0 left and right*/
 }
-#work .row {
-  padding-bottom: 25px; border-bottom: 1px solid #2d2d2d;
-}
+
 #hero h1 {
   text-align: center;
 }
 .logo{
-  max-width: 90px;
+  max-width: 100px;
   float: left;
-  padding-left: 5px;
+  padding-left: 8px;
+  padding-top: 17px;
 }
 nav {
   display: inline-block;
@@ -149,6 +165,7 @@ nav > ul > li > a {
   width: 100%;
   margin-left: 0;
 }
+
 #about{
   margin-top: 0;
   padding: 10px 0;
@@ -156,6 +173,15 @@ nav > ul > li > a {
   display: inline-block;
   width: 100%;
 }
+#hero-story h2 {
+  margin-top: 5px;
+  font-size: 21px;
+}
+#hero-story h3 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
 #fitzen {
   margin-top: 0;
   padding: 10px 0;
@@ -172,4 +198,97 @@ nav > ul > li > a:hover{
 nav > ul > li > a:focus{
   color: #FFB31A;
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 640px) {
+  header{
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+nav{
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
+body{
+  font-size: 18px;
+}
+.col-md-6{
+  width: 50%;
+}
+.col-md-6 img {
+  padding-top: 11px;
+}
+.row {
+    margin: 0;
+    padding: 20px 20px 40px 20px;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+[class*="col-"]{
+  float: left;
+  padding: 0 20px;
+}
+.relevant.skills ul  {
+padding-left: 20px;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+}
+.col-md-4 ul {
+  padding-left: 22px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container{
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+.col-lg-4 {
+  width: 33.33%;
+}
+.col-lg-8{
+  width: 66.66%;
+}
+
+@keyframes color-change{
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,0);}
+  to {transform: translate(200px,0);}
+}
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
