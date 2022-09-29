@@ -100,9 +100,8 @@ a:focus{
 }
 
 header{
-  background-color: #F2F1EF;
-  text-align: center;
-  padding: 10px 0;
+  background-color: #FFFFFF;
+  padding: 10px 0 4px;
   margin: 0 0;
   width: 100%;
   position: fixed;
@@ -132,7 +131,7 @@ width: 100%;
 }
 
 footer{
-  background-color: #F2F1EF;
+  background-color: #ffffff;
   color: #090939;
   text-align: center;
   padding: 10px 0;
@@ -172,16 +171,14 @@ display: block;
   padding:10px 0 10px 10px;
   margin:0
 }
-nav {
-  display: inline-block;
-  width: 100%;
-}
+
 nav > ul {
   list-style-type: none;
   padding: 0 10px;
+  margin: 0;
 }
 nav > ul > li {
-  display: inline-block;
+
   padding: 0 10px;
 }
 nav > ul > li > a {
@@ -206,17 +203,7 @@ nav > ul > li > a {
   display: inline-block;
   width: 100%;
 }
-#hero .container{
-  margin-top: 140px;
-  padding-bottom: 40px;
-}
-.underline {
-  border-bottom: 4px solid #FFD277;
-  display: inline;
-  font-size: 2.75em;
-  font-weight: 700;
-  color: #090939;
-}
+
 
 #hero p{
   font-size: 2.75em;
@@ -279,11 +266,22 @@ nav > ul > li > a:focus{
   text-decoration: underline;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
+
+  #hero .container{
+    margin: 60px 30px ;
+    padding: 0 40px;
+  }
     header{
     text-align: unset;
     padding: 20px 0 10px;
   }
+  nav > ul > li{
+    display: inline-block;
+  }
+  nav > ul {
+  margin: 1em 0;
+}
 
 nav{
   width: auto;
@@ -324,10 +322,17 @@ padding-left: 20px;
 .col-md-4 ul {
   padding-left: 22px;
 }
+.navtoggle li:last-child {
+  display:none;
+}
 }
 
 
 @media only screen and (min-width: 1024px) {
+  #hero .container{
+    margin: 135px 130px ;
+    padding: 0 100px;
+  }
 .container{
     max-width: 1200px;
     margin-left:auto;
@@ -400,29 +405,56 @@ footer svg{
   margin-top: 20px;
 }
 #hero {
-  padding:133px 30px 50px;
+  padding:133px 30px 100px;
 }
 #hero .container{
   padding: 0 0 ;
-}
-h1{
-  font-size: 2.25em;
+  margin:0 0 ;
 }
 #hero p{
   font-weight:700;
   font-size: 2.25em;
+  margin: 50px 40px;
 }
-.underline{
-  font-weight:700;
-  font-size: 2.25em;
-}
+
 .row {
     margin: 0;
     padding: 100px 20px 100px 20px;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
 }
+}
+
+
 #contact img {
     height: 100px;
     width: 100px;
     padding: 0;
     margin: 0 50px;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 25px;
+  padding-right: 10px;;
+  margin-top: 10px;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+
+}
+.navtoggle.responsive nav {
+  padding: 100px 0 0;
+  margin-bottom:30px;
+  text-align: center;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
