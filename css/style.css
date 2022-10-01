@@ -64,6 +64,7 @@ a:focus{
 .button{
   display: inline-block;
   background-color: #FF6F00;
+  text-transform: uppercase;
   color: #ffffff;
   font-weight: 400;
   padding: 10px;
@@ -85,8 +86,8 @@ a:focus{
   color: #FF6F00;
   padding: 5px 10px;
   margin-top: 7px;
-  text-transform: uppercase;
-  border: 2px solid #FF6F00;
+  text-transform: lowercase;
+  border: 1px solid #FF6F00;
   transition-duration: 0.2s ;
   transition-property: opacity;
 }
@@ -96,7 +97,7 @@ a:focus{
 }
 .button.email:active {
   color: #994c30;
-  border: none;
+  border: 1px solid #FF6F00;
 }
 
 header{
@@ -119,9 +120,11 @@ text-align: center;
 padding-bottom: 10px;
 text-decoration: none;
 width: 100%;
+color: #2D2D2D;
 }
 #contact h2{
   margin-bottom: 10px;
+
 }
 #contact p{
   margin-top: 10px;
@@ -146,7 +149,7 @@ footer ul {
   text-align: center;
   padding: 0;
   list-style-type: none;
-  margin-top: 30px;
+  margin-top: 35px;
 }
  footer ul li {
   display: inline-block;
@@ -167,17 +170,6 @@ footer ul li a {
   font-size: 14px;
 }
 
-#hero h1 {
-display: block;
-}
-
-.logo{
-  max-width: 100px;
-  float: left;
-  padding: 10px 10px;
-  margin:0;
-}
-
 nav > ul {
   list-style-type: none;
   padding: 0 10px;
@@ -194,8 +186,8 @@ nav > ul > li > a {
   color: #2d2d2d;
 }
 #work h2{
-  padding: 30px 0 20px 40px;
-  margin:40px 0 30px;
+  padding: 50px 0 20px 40px;
+  margin:0 0 30px;
   font-size: 35px;
   color: #ffffff;
 }
@@ -206,11 +198,10 @@ nav > ul > li > a {
   background-color:#ffffff;
   color: #090939;
   padding: 133px 40px 100px 60px;
+  margin-bottom: 5px;
   display: inline-block;
   width: 100%;
 }
-
-
 #hero p{
   font-size: 2.75em;
   font-weight: 700;
@@ -218,7 +209,6 @@ nav > ul > li > a {
   margin:0;
   display: inline-block;
 }
-
 #about{
   margin-top: 0;
   padding-bottom: 50px;
@@ -251,11 +241,11 @@ nav > ul > li > a {
 
 #fitzen {
   margin: 0 0 ;
-  padding: 10px 0;
-  padding-top: 133px;
+  padding: 200px 0 0;
   display: inline-block;
   width: 100%;
 }
+
 #work {
   background-color: #2d2d2d;
   color: #ffffff;
@@ -263,8 +253,8 @@ nav > ul > li > a {
 
 
 nav > ul > li > a:hover{
-  color: #FFFFFF;
-  text-decoration: underline;
+  color: #FFB31A;
+  text-decoration: none;
 }
 
 nav > ul > li > a:focus{
@@ -284,13 +274,21 @@ box-shadow:0px 2px 5px 0px rgba(50, 50, 40, 0.1);
 .logo{
 max-width: 100px;
 float: left;
-padding:10px 0 10px 10px;
+padding:15px 15px;
 margin:0
 }
-
-footer svg{
-  fill:#090939;
+footer a {
+  color: #2D2D2D;
+  text-decoration: underline;
 }
+footer svg{
+  fill:#2D2D2D;
+}
+footer svg:hover{
+  fill:#FFB31A;
+    transition-duration: 0.2s;
+}
+
 .col-md-6.col-lg-5{
   padding-bottom: 20px;
 }
@@ -313,6 +311,7 @@ position: absolute;
 right: 0;
 top: 2px;
 font-size: 20px;
+margin-top: 13px;
 }
 
 .navtoggle.responsive li {
@@ -326,7 +325,7 @@ padding: 80px 0 0;
 .navtoggle.responsive li {
 display: block;
 padding: 12px 0;
-border-top: 1px solid rgb(79, 122, 165);
+text-align: center;
 }
 
 .navtoggle.responsive li:last-child {
@@ -345,6 +344,10 @@ color: #2d2d2d;
     margin: 60px 30px ;
     padding: 0 40px;
   }
+
+  h1{
+    margin-bottom: 35px;
+  }
     header{
     text-align: unset;
     padding: 20px 0 10px;
@@ -352,9 +355,6 @@ color: #2d2d2d;
   nav > ul > li{
     display: inline-block;
   }
-  nav > ul {
-  margin: 1em 0;
-}
 
 nav{
   width: auto;
@@ -372,7 +372,7 @@ body{
 }
 .row {
     margin: 0;
-    padding: 100px 20px 100px 20px;
+    padding: 80px 20px;
 }
 h3 {
   margin-top: 0;
@@ -403,7 +403,7 @@ padding: 30px 0;
 nav {
 width: auto;
 float: right;
-margin-top: 0px;
+margin-top: 10px;
 }
 
 .navtoggle.responsive nav {
@@ -453,9 +453,6 @@ display: none;
 .col-lg-8{
   width: 66.66%;
 }
-h1{
-  display:inline;
-}
 }
 
 
@@ -488,6 +485,20 @@ h1{
 
 .row {
     margin: 0;
-    padding: 100px 20px 100px 20px;
+    padding: 60px 20px;
+}
+#contact h2 {
+  font-weight:600;
+  font-size: 2em;
+}
+#contact p{
+  padding:0 30px;
+}
+#fitzen {
+  padding: 120px 0 0;
+}
+#fitzen h1{
+  font-size: 35px;
+
 }
 }
