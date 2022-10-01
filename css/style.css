@@ -250,7 +250,7 @@ nav > ul > li > a {
 }
 
 #fitzen {
-  margin-top: 0;
+  margin: 0 0 ;
   padding: 10px 0;
   padding-top: 133px;
   display: inline-block;
