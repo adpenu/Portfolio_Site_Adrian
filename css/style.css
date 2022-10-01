@@ -174,8 +174,8 @@ display: block;
 .logo{
   max-width: 100px;
   float: left;
-  padding:10px 0 10px 10px;
-  margin:0
+  padding: 10px 10px;
+  margin:0;
 }
 
 nav > ul {
