@@ -82,18 +82,21 @@ a:focus{
   color: #994c30;
 }
 .button.email {
-  background-color: transparent;
-  color: #FF6F00;
+  background-color: #2D2D2D;
+  color: #ffffff;
   padding: 5px 10px;
-  margin-top: 7px;
+  margin: 7px 0 0 2px;
   text-transform: lowercase;
-  border: 1px solid #FF6F00;
-  transition-duration: 0.2s ;
-  transition-property: opacity;
+  border: 1px solid #2d2d2d;
+  border-radius: 10px;
 }
 .button.email:hover{
-  background-color: #FF6F00;
+  background-color: #FFB31A;
   color: #ffffff;
+  border-color: #FFB31A;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
 }
 .button.email:active {
   color: #994c30;
@@ -198,7 +201,6 @@ nav > ul > li > a {
   background-color:#ffffff;
   color: #090939;
   padding: 133px 40px 100px 60px;
-  margin-bottom: 5px;
   display: inline-block;
   width: 100%;
 }
@@ -264,6 +266,8 @@ nav > ul > li > a:focus{
 
 header{
 background-color: #FFFFFF;
+top: 0;
+right: 0;
 padding: 10px 0 4px;
 margin: 0 0;
 width: 100%;
@@ -275,12 +279,9 @@ box-shadow:0px 2px 5px 0px rgba(50, 50, 40, 0.1);
 max-width: 100px;
 float: left;
 padding:15px 15px;
-margin:0
+margin:10px 0 0 25px;
 }
-footer a {
-  color: #2D2D2D;
-  text-decoration: underline;
-}
+
 footer svg{
   fill:#2D2D2D;
 }
@@ -311,7 +312,7 @@ position: absolute;
 right: 0;
 top: 2px;
 font-size: 20px;
-margin-top: 13px;
+margin-top: 20px;
 }
 
 .navtoggle.responsive li {
@@ -319,7 +320,7 @@ display: block;
 }
 
 .navtoggle.responsive nav {
-padding: 80px 0 0;
+padding: 70px 0 0;
 }
 
 .navtoggle.responsive li {
@@ -336,6 +337,11 @@ nav > ul > li > a {
 text-transform: lowercase;
 font-weight: 700;
 color: #2d2d2d;
+}
+
+#nav  > ul {
+ list-style-type: none;
+ padding: 0;
 }
 
 @media only screen and (min-width: 641px) {
@@ -433,13 +439,19 @@ display: inline-block;
 .navtoggle li:last-child {
 display: none;
 }
+#nav > ul {
+list-style-type: none;
+padding: 0;
+margin: 1em 0;
+
+}
 }
 
 
 @media only screen and (min-width: 1024px) {
   #hero .container{
-    margin: 135px 130px ;
-    padding: 0 100px;
+    margin: 150px 130px ;
+    padding: 0 120px 0 100px;
   }
 .container{
     max-width: 1200px;
@@ -499,6 +511,8 @@ display: none;
 }
 #fitzen h1{
   font-size: 35px;
-
+}
+.logo{
+margin:5px 5px 0 0px;
 }
 }
