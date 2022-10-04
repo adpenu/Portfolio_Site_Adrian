@@ -450,7 +450,7 @@ margin: 1em 0;
 
 @media only screen and (min-width: 1024px) {
   #hero .container{
-    margin: 150px 130px ;
+    margin: 150px auto ;
     padding: 0 120px 0 100px;
   }
 .container{
