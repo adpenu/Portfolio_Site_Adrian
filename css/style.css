@@ -63,15 +63,13 @@ a:focus{
 
 .button{
   display: inline-block;
-  background-color: #FF6F00;
+  background-color:#385446;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 400;
   padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px #994c30; /*width of the border, type, color*/
-  transition-duration: 0.2s ;
-  transition-property: opacity;
+  border-radius: 13px;
+  text-decoration: none;
 }
 .button:hover {
   opacity: 0.8;
@@ -79,7 +77,7 @@ a:focus{
   color: #ffffff;
 }
 .button:active {
-  color: #994c30;
+  color: #6EA3AF;
 }
 .button.email {
   background-color: #2D2D2D;
@@ -91,17 +89,11 @@ a:focus{
   border-radius: 10px;
 }
 .button.email:hover{
-  background-color: #FFB31A;
-  color: #ffffff;
-  border-color: #FFB31A;
-  transition-duration: 0.2s;
-  transition-property: opacity;
-  transition-timing-function: ease-in-out;
+    opacity: 0.8;
+    text-decoration: none;
+    color: #ffffff;
 }
-.button.email:active {
-  color: #994c30;
-  border: 1px solid #FF6F00;
-}
+
 
 header{
   background-color: #FFFFFF;
@@ -189,9 +181,9 @@ nav > ul > li > a {
   color: #2d2d2d;
 }
 #work h2{
-  padding: 50px 0 0 40px;
+  padding: 60px 0 0 20px;
   font-size: 35px;
-  color: #2d2d2d;
+  color: #ffffff;
   margin: 0;
 }
 #work h3{
@@ -200,7 +192,7 @@ nav > ul > li > a {
 #hero {
   background-color:#ffffff;
   color: #090939;
-  padding: 133px 40px 100px 60px;
+  padding: 133px 60px 70px 60px;
   display: inline-block;
   width: 100%;
 }
@@ -248,8 +240,8 @@ nav > ul > li > a {
 #work {
   background-color: #2d2d2d;
   color: #ffffff;
+  padding-bottom: 70px;
 }
-
 
 nav > ul > li > a:hover{
   color: #FFB31A;
@@ -276,15 +268,17 @@ box-shadow:0px 2px 5px 0px rgba(50, 50, 40, 0.1);
 max-width: 100px;
 float: left;
 padding:15px 15px;
-margin:10px 0 0 25px;
+margin:10px 0 0 6px;
 }
 
 footer svg{
   fill:#2D2D2D;
 }
 footer svg:hover{
-  fill:#FFB31A;
-    transition-duration: 0.05s;
+    opacity: 0.8;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+
 }
 
 .col-md-6.col-lg-5{
@@ -378,8 +372,9 @@ body{
 }
 .row {
     margin: 0;
-    padding: 80px 20px;
+    padding: 50px 0;
 }
+
 h3 {
   margin-top: 0;
   margin-bottom: 14px;
@@ -450,8 +445,8 @@ margin: 1em 0;
 
 @media only screen and (min-width: 1024px) {
   #hero .container{
-    margin: 150px auto ;
-    padding: 0 120px 0 100px;
+    margin: 150px auto 90px ;
+    padding: 0 120px 120px;
   }
 .container{
     max-width: 1200px;
