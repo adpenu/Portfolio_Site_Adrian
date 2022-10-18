@@ -295,8 +295,8 @@ header {
 .logo {
   max-width: 100px;
   float: left;
-  padding: 15px;
-  margin: 10px 0 0 6px;
+  padding: 10px;
+  margin: 10px 0 0 8px;
 }
 
 footer svg {
@@ -309,7 +309,7 @@ footer svg:hover {
   transition-timing-function: ease-in-out;
 }
 
-.col-md-6.col-lg-5 {
+.col-md-6.col-lg-4 {
   padding-bottom: 20px;
 }
 
@@ -553,9 +553,5 @@ nav > ul > li > a {
 
   #fitzen h1 {
     font-size: 35px;
-  }
-
-  .logo {
-    margin: 5px 5px 0 0;
   }
 }
