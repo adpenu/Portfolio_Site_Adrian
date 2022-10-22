@@ -18,3 +18,4 @@ if (x.className === 'navtoggle') {
   //      z.style.transition = "all 0.5s ease";
 //  }
 //}
+// direct browser to top right away
