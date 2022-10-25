@@ -425,6 +425,7 @@ nav > ul {
     display: grid;
     grid-gap: 10px;
     align-items: start;
+    background-color: #fafafa;
     margin: 0 170px;
     padding: 0 0 0 10px;
   }
@@ -577,6 +578,11 @@ nav > ul {
   .grid-container {
     margin: 0;
     padding: 0 0 0 160px;
+  }
+
+  .grid-container2 {
+    margin: 0;
+    padding: 0 140px;
   }
 
   .col-lg-4 {
