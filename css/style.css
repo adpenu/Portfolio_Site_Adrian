@@ -10,7 +10,6 @@ body {
   font-weight: 300;
   line-height: 1.5;
   color: #2b2b2b;
-  margin: 0;
 }
 
 /* colours used:
@@ -47,7 +46,6 @@ h4 {
   font-size: 1.5em;
   font-weight: 400;
   margin-top: 10px;
-  padding: 0 20px;
 }
 
 img {
@@ -293,8 +291,8 @@ nav > ul > li > a {
   margin: 0;
   background-color: #2b2b2b;
   color: #fff;
-  padding: 180px 0;
-  max-width: 100%;
+  padding: 120px 0 50px;
+  max-width: 3800px;
 }
 
 #work {
@@ -671,4 +669,5 @@ nav > ul {
   #fitzen h1 {
     font-size: 35px;
   }
+}
 }
