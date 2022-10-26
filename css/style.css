@@ -126,6 +126,16 @@ header {
   padding: 0 30px;
 }
 
+.grid-container {
+  padding: 0 30px;
+  background-color: #fafafa;
+}
+
+.grid-container2 {
+  padding: 0 30px;
+  background-color: #fafafa;
+}
+
 #contact {
   display: inline-block;
   text-align: center;
@@ -401,7 +411,7 @@ nav > ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 120px;
+    margin: 0 20px;
     padding: 0;
   }
 
@@ -411,13 +421,23 @@ nav > ul {
     grid-row-gap: 40px;
     align-items: start;
     background-color: #fafafa;
-    margin: 0 100px 0 140px;
-    padding: 0 0 0 40px;
+    margin: 0 10px;
+    padding: 0;
   }
 
   .flexbox-container h2 {
     margin: 0;
     font-weight: 900;
+  }
+
+  .flexbox-item-text {
+    margin: 10px 0 30px;
+    padding: 0 0 0 10px;
+  }
+
+  .flexbox-item-image {
+    margin: 30px 10px;
+    padding: 0 8px;
   }
 
   .grid-container2 {
@@ -426,7 +446,7 @@ nav > ul {
     grid-gap: 10px;
     align-items: start;
     background-color: #fafafa;
-    margin: 0 170px;
+    margin: 0 10px;
     padding: 0 0 0 10px;
   }
 
@@ -575,6 +595,10 @@ nav > ul {
     margin: 0 150px;
   }
 
+  .flexbox-item-text p {
+    margin: 0;
+  }
+
   .grid-container {
     margin: 0;
     padding: 0 0 0 160px;
@@ -583,6 +607,12 @@ nav > ul {
   .grid-container2 {
     margin: 0;
     padding: 0 140px 0 155px;
+  }
+
+  [class*="flexbox-item-"] {
+    margin: 30px;
+    color: #1f1f1f;
+    max-width: 700px;
   }
 
   .col-lg-4 {
@@ -643,4 +673,5 @@ nav > ul {
   #fitzen h1 {
     font-size: 35px;
   }
+}
 }
