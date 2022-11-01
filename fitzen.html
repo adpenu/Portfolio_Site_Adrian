@@ -1,254 +1,628 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Project FitZEN</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
-  </head>
-  <body>
 
-    <header>
-      <div class="container">
-        <div class="navtoggle" id="myNavtoggle">
-      <a href="index.html"><img src="img\fitzen_img\logo.png" class="logo" alt="Adrian Penu"></a>
-          <nav id="nav">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project FitZEN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img src="img\fitzen_img\logo.png" class="logo" alt="Adrian Penu"></a>
+        <nav id="nav">
           <ul>
-          <li><a href="index.html#mywork">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-         </ul>
-       </nav>
+            <li><a href="index.html#mywork">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
       </div>
     </div>
-    </header>
+  </header>
 
-    <main>
-      <div id="fitzen">
+  <main>
+    <div id="fitzen">
       <div class="container">
-      <h1> FitZEN </h1>
-      <div>
-        <picture>
-        <source scrset="projects\fitzen\web_1920_1.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_1.png" alt="My Image">
-        </picture>
+        <h1> FitZEN </h1><br />
+        <h4> As part of my qualification as a UX Designer I've chosen to specialise in web development.</h4>
 
+        <h4>This is the story of how I've applied front-end principles in building my UX portfolio site.</h4>
+      </div>
+      <picture>
+        <source scrset="img\fitzen_img\FITZEN_project_main_desktop.png" media="(max-width:767px)">
+        <img src="img\fitzen_img\FITZEN_project_main_desktop.png" alt="My Image">
+      </picture>
+      <br />
+      <br />
+      <br />
+      <div class="flexbox-container">
+        <h3>OVERVIEW</h3>
+        <h2>Summary</h2>
+        <div class="flexbox-item">
+          <p>As part of the UX Designer bootcamp by CareerFoundry, I was responsible with creating an app that would meet the general criterias and feature requirements.
+            Alongside having a full-time job, the entire UX process took 8 months and revolves around the idea of helping users approach fitness and wellbeing from a holistic perspective.
+          </p>
+        </div>
+        <br />
+        <h2>Context</h2>
+        <div class="flexbox-item">
+          <p>With over 8000 fitness apps available on the market it can cause users to feel overwhelmed by the multitude of choice.
+            With more fitness oriented people than ever it’s crucial to create a product that it’s based around their personality, expectations and desires.
+          </p>
+        </div>
+        <br />
+        <h2>Hypothesis</h2>
+        <div class="flexbox-item">
+          <p>By adopting a holistic approach to our wellness app, we believe it will help users achieve their goals and adopt a health-conscious mindset in order to maintain the results.</p>
+          <p> We expect to see an increase in engagements with the product and positive reviews.
+          </p>
+        </div>
+        <br />
+        <br />
+        <h2>The process</h2>
         <picture>
-        <source scrset="projects\fitzen\web_1920_2.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_2.png" alt="My Image">
+          <source scrset="img\fitzen_img\design_thinking.png" media="(max-width:767px)">
+          <img src="img\fitzen_img\design_thinking.png" alt="My Image">
         </picture>
+        <br />
+        <br />
+        <br />
 
-        <picture>
-        <source scrset="projects\fitzen\web_1920_3.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_3.png" alt="My Image">
-        </picture>
+        <h3>UNDERSTAND</h3>
+        <h2>Focusing on <span class="strikethrough">business</span> users</h2>
 
-        <picture>
-        <source scrset="projects\fitzen\web_1920_4.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_4.png" alt="My Image">
-        </picture>
+        <div class="flexbox-item">
+          <p>Understanding user problems whilst also addressing the expectations of stakeholders and
+            acknowledging the business scope are aspects to be taken in consideration when drawing
+            up a plan to which all parties can adhere to.</p>
+        </div>
+      </div>
 
-        <picture>
-        <source scrset="projects\fitzen\web_1920_5.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_5.png" alt="My Image">
-        </picture>
+      <div class="grid-container2">
+        <div class="flexbox-item">
+          <h2>Target audience</h2>
+          <p>The mindset of our target user is someone who understands the need for physical and mental improvement but is not sure where and how to start the journey.
+            Another type of user could be someone who is already working on their well-being but would like to track their progress, access medical history or want to experiment with a new program.</p>
+        </div>
+        <div class="flexbox-item">
+          <h2>Risk & opportunity</h2>
+          <p>The main risk is that our service will not gain enough traction to stand out from the plethora of wellness apps that are currently available. .</p><br />
+          <p>We can make the difference by creating an app that will guide and inform the user on the necessity of overall improvement in order to achieve maximum results.
+          </p>
+        </div>
+        <div class="flexbox-item">
+          <h2>Competition</h2>
+          <p>Main competitors to our service would be the likes of Noom and MyFitnessPal.
+            This is due to similar approach of helping the clients feel better and get in shape by tracking their diets and exercise routine. </p>
+        </div>
+        <div class="flexbox-item">
+          <h2>Problem statement</h2>
+          <p>Health-conscious people need a way to start their journey in fitness and stay on track with their well-being because it can be very difficult to find time and motivation in everyday life.
+          </p><br />
+          <p>We will know this to be true when we see users reaching their health goals.</p>
+        </div>
+      </div>
 
-        <picture>
-        <source scrset="projects\fitzen\web_1920_6.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_6.png" alt="My Image">
-        </picture>
+      <div class="flexbox-container">
+        <br />
+        <br />
+        <br />
+        <h3>COMPETITIVE ANALYSIS</h3>
+        <h2>Swot analysis</h2>
+      </div>
+      <div class="grid-container2">
+        <div class="flexbox-item">
+          <picture>
+            <source scrset="img\fitzen_img\myfitpal.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\myfitpal.png" alt="My Image">
+          </picture>
+        </div>
+        <div class="flexbox-item">
+          <picture>
+            <source scrset="img\fitzen_img\noom.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\noom.png" alt="My Image">
+          </picture>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
 
-        <picture>
-        <source scrset="projects\fitzen\web_1920_7.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_7.png" alt="My Image">
-        </picture>
+      <div class="flexbox-container">
+        <h3>OBSERVE</h3>
+        <h2>Research goals</h2>
+      </div>
+      <br />
+      <div class="grid-container3">
+        <div class="flexbox-item">
+          <h2>Understand user perspective on health through their experiences and habits</h2>
+        </div>
+        <div class="flexbox-item">
+          <h2>Investigate user needs and motivations regarding their wellness</h2>
+        </div>
+        <div class="flexbox-item">
+          <h2>Determine what features are desired in an app that would facilitate user’s health journey</h2>
+        </div>
+        <br />
+      </div>
+      <div class="container">
+        <h4> I started the research by doing surveys to get a general quantitative understanding of the direction of my project.</h4>
 
-        <picture>
-        <source scrset="projects\fitzen\web_1920_8.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_8.png" alt="My Image">
-        </picture>
+        <h4>It will also be useful to gather qualitative insights for the second stage of the research process, user interviews. I think that these methods complement each other and can be good sources in gaining different perspectives on user’s
+          needs and motivations.</h4><br />
+        <h4> Finally I’ve used affinity mapping to help me organise the information based on correlation and relevance. </h4>
+      </div>
+      <br />
+      <br />
+      <div class="flexbox-container">
+        <h2>Research insights</h2>
+      </div>
+      <br />
+      <div class="grid-container2">
+        <div class="flexbox-item">
+          <h2>Survey</h2>
+          <p>23 participants took the survey</p><br />
+          <p>Under personality type 34.8% describe themselves as procrastinators</p><br />
+          <p>Overwhelmingly, 87% consider themselves as moderate eaters</p><br />
+          <p>78% use their phones before going to bed and 61% wake up feeling tired or anxious</p><br />
+          <p>As to what has the most impact on overall health, the responses are mixed, 34% considering mental health as key factor</p><br />
+          <p>Progress tracker was voted to be the most desired feature in a fitness app.</p><br />
 
-        <picture>
-        <source scrset="projects\fitzen\web_1920_9.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_9.png" alt="My Image">
-        </picture>
 
-        <picture>
-        <source scrset="projects\fitzen\web_1920_10.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_10.png" alt="My Image">
-        </picture>
+        </div>
+        <div class="flexbox-item">
+          <h2>Interviews</h2>
+          <p>3 participants (2 in-person, 1 remote), ages 30-34
+          </p><br />
+          <p>Take proactive measures to improve their quality of lives on a daily basis</p><br />
+          <p>Each of the interviewees engages in different types of activity: yoga, cycling and martial arts</p><br />
+          <p>2/3 of the participants started documenting their workouts in the last 2 years</p><br />
+          <p>Self-paced programs seem to be preferable as they do not require a high level of commitment </p><br />
 
-        <picture>
-        <source scrset="projects\fitzen\web_1920_11.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_11.png" alt="My Image">
-        </picture>
+          <a href="projects/fitzen/research_insights.pdf" target="_blank">View full list</a>
 
-        <picture>
-        <source scrset="projects\fitzen\web_1920_12.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_12.png" alt="My Image">
-        </picture>
+        </div>
+        <div class="flexbox-item">
+          <h2>Affinity map</h2>
+        </div>
+      </div>
+      <div class="flexbox-container">
+        <div class="flexbox-item">
+          <picture>
+            <source scrset="img\fitzen_img\affinity_map.jpg" media="(max-width:767px)">
+            <img src="img\fitzen_img\affinity_map.jpg" alt="My Image">
+          </picture>
+        </div>
+        <a href="projects/fitzen/research_insights.pdf" target="_blank">View affinity map insights</a>
 
-        <picture>
-        <source scrset="projects\fitzen\web_1920_13.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_13.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_14.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_14.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_15.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_15.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_16.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_16.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_17.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_17.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_18.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_18.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_19.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_19.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_20.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_20.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_21.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_21.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_22.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_22.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_23.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_23.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_24.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_24.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_25.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_25.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_26.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_26.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_27.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_27.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_28.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_28.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_29.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_29.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_30.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_30.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_31.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_31.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_32.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_32.png" alt="My Image">
-        </picture>
-
-        <picture>
-        <source scrset="projects\fitzen\web_1920_34.png" media="(max-width:767px)">
-          <img src="projects\fitzen\web_1920_34.png" alt="My Image">
-        </picture>
+        <br />
+        <br />
+        <br />
+        <h2>Possible solutions</h2>
+        <div class="flexbox-item">
+          <p>Following this stage of research, I came across themes and concerns that are personal to the participants and would need addressing in our app.</p>
+        </div>
+      </div>
+      <div class="grid-container2">
+        <div class="flexbox-item">
+          <h2>Progress tracker that would raise the competitive levels and engage the user</h2>
+        </div>
+        <div class="flexbox-item">
+          <h2>Customised training regime based on their goals but also to have the freedom of selecting different routines depending on the user’s mood</h2>
+        </div>
+        <div class="flexbox-item">
+          <h2>Medical data stored was greeted with skepticism due to fear of the information being leaked or misused</h2>
+        </div>
+        <div class="flexbox-item">
+          <h2>Recommending healthy, fun and easy meals</h2>
+        </div>
+        <br />
 
       </div>
-    </div>
-  </div>
+      <br />
+      <br />
+      <br />
+      <div class="flexbox-container">
+        <h3>POV</h3>
+        <h2>Personas</h2>
+        <br />
+      </div>
+      <div class="grid-container">
+        <div class="flexbox-item">
+          <p>I’ve created personas with the purpose of making the research more relatable and building empathy with the user.
+            A persona doesn’t represent the ideal user but rather the average user whom the app is intended for.
+          </p><br />
+          <p>The two personas created for this project highlight different target audiences and their pain points.
+          </p><br />
+          <p>One is chosen due to wanting to take fitness to the next level whilst the second persona targets users who want to improve their quality of life but don’t know where to start.
+          </p>
+        </div>
+        <div class="flexbox-item">
+          <picture>
+            <source scrset="img\fitzen_img\personas.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\personas.png" alt="My Image">
+          </picture>
+        </div>
+        <div class="flexbox-item">
+          <h2>Fatima's user journey</h2>
+        </div>
+        <div class="flexbox-item">
+          <picture>
+            <source scrset="img\fitzen_img\user_journey.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\user_journey.png" alt="My Image">
+          </picture>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div class="flexbox-container">
+        <h3>IDEATION</h3>
+        <h2>Finding patterns</h2>
+        <div class="flexbox-item">
+          <p>I’ve created user flows with basic tasks such starting a workout. This helped me make sure the navigation remains simple and intuitive.</p>
+        </div>
+        <div class="flexbox-item">
+          <picture>
+            <source scrset="img\fitzen_img\user_flow_1.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\user_flow_1.png" alt="My Image">
+          </picture>
+        </div>
+      </div>
+      <div class="grid-container-white">
+        <div class="flexbox-item">
+          <h2>Card sorting</h2>
+          <p>An open card sorting exercise has been conducted with 8 participants categorizing 20 cards based on their familiarity and relevance.
+            The participants didn’t have any knowledge about the app and its features prior to this.
+          </p><br />
+          <p>The highest consensus was with the category relevant to nutrition and diet.
+            All the participants accurately identified the correlations on this topic. This reflects the concept in the initial sitemap.
+          </p><br />
+        </div>
+        <div class="flexbox-item">
+          <picture>
+            <source scrset="img\fitzen_img\card_sorting.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\card_sorting.png" alt="My Image">
+          </picture>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="flexbox-container">
+        <h2>Site map</h2>
+        <div class="flexbox-item9">
+          <picture>
+            <source scrset="img\fitzen_img\site_map.jpg" media="(max-width:767px)">
+            <img src="img\fitzen_img\site_map.jpg" alt="My Image">
+          </picture>
+        </div>
+      </div>
 
+      <div class="flexbox-container">
+        <h3>ITERATION</h3>
+        <h2>Wireframing and prototyping</h2>
+      </div><br />
+      <div class="grid-container-proto">
+        <div class="flexbox-item">
+          <p>Using pen and paper, I’ve created low fidelity wireframes to find the best solutions for navigation and layout.
+            This method offers the creativity and freedom of experimenting with different approaches without investing too much time and resources.
+          </p>
+        </div>
+        <div class="flexbox-item10">
+          <picture>
+            <source scrset="img\fitzen_img\low_fi.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\low_fi.png" alt="My Image">
+          </picture>
+        </div>
+
+
+        <div class="flexbox-item">
+          <p>The best layouts have been upgraded to mid fidelity stage using Adobe XD. An interactive prototype has been created with usability testing in mind.
+          </p>
+        </div>
+        <div class="flexbox-item10">
+          <picture>
+            <source scrset="img\fitzen_img\mid_fi.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\mid_fi.png" alt="My Image">
+          </picture>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="flexbox-container">
+        <h2>User testing</h2>
+      </div>
+      <br />
+      <div class="grid-container2">
+        <div class="flexbox-item">
+          <h2>Methodology</h2>
+          <p>The tests will be moderated in person and remotely. Participants will use their own devices for engaging with the prototype.
+            Sessions will be recorded through screen and audio recordings for analysis material.</p><br />
+        </div>
+        <div class="flexbox-item">
+          <h2>Goals</h2>
+          <p>The goal of the test is to asses the learnability of new users interacting with the prototype of the app.
+            The test will consist of accomplishing simple core tasks such as logging in and creating a plan.
+            We will measure the success rate and make decisions regarding design and functionality based on that. </p>
+        </div>
+        <div class="flexbox-item">
+          <h2>Objectives</h2>
+          <p>Observing how users navigate through the core functionality of the app and assessing the metrics involved to achieve the goals</p><br />
+          <p>Determining whether the app’s features fulfill the requirements of a fitness app </p><br />
+          <p>Gathering user feedback</p>
+        </div>
+        <div class="flexbox-item">
+          <h2>Rainbow sheet</h2>
+          <p>The rainbow sheet consists of a spreadsheet document where I've recorded behavioral patterns presented by research participants.
+            Every time a participant exhibits a new note-worthy behavior I've written down the observation in the left-most column of the rainbow sheet.</p><br />
+          <p> Towards the right of the observations, each participant is assigned a color, and a label.
+            If a participant performs a recorded behavior (or observation), the participants cell is filled in with the participant’s assigned color.</p><br />
+        </div>
+
+        <div class="flexbox-item">
+          <h2>Key findings</h2>
+          <p>High Severity : Clicked Settings button for medical records</p><br />
+          <p>High Severity : Difference between Workout and Plan was not clear</p><br />
+          <p>High Severity : Not clear what adding notes and calendar features are about
+          </p><br />
+        </div>
+        <div class="flexbox-item8">
+          <picture>
+            <source scrset="img\fitzen_img\rainbow_sheet.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\rainbow_sheet.png" alt="My Image">
+          </picture>
+        </div>
+        <br />
+        <br />
+        <a href="projects/fitzen/usability_test.pdf" target="_blank">View full usability report</a>
+      </div>
+      <br />
+      <br />
+      <br />
+
+      <div class="flexbox-container">
+        <h3>STORYTELLING</h3>
+        <h2>Refining the design</h2>
+        <div class="flexbox-item">
+          <p>Usability testing helped me a lot in finding answers to some of the major concerns I had for the design and general layout.
+            For example the categorization of workouts, intuitive navigation bar and improved forms layout have contributed in creating a much simpler and user oriented product.
+          </p><br />
+          <p>Also the study of Material Design Components helped me make the app in line with the requirements of the field and adhere to universal principles of design.
+          </p><br />
+        </div>
+      </div>
+
+      <div class="grid-container-121">
+        <div class="flexbox-item5">
+          <p>I wanted the onboarding process to familiarise and inform user about the content of the app and its functionality in the swiftest manner.
+             Reducing cognitive load was a major factor in designing this features therefore the first onboarding consist of three pages each containing a simple paragraph describing the app.
+          </p>
+        </div>
+        <div class="flexbox-item10">
+          <picture>
+            <source scrset="img\fitzen_img\design_onboard.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\design_onboard.png" alt="My Image">
+          </picture>
+        </div>
+        <div class="flexbox-item5">
+          <p>Choosing background images was the main struggle because of the contrast with the text so I have moved some of the information into the splash screen. I’ve also relied on A/B testing for the logo.
+
+          </p>
+        </div>
+        <div class="flexbox-item5">
+          <p>‘Dashboard’ screen is the main page of the app considered as a hub for the user.
+            The idea was to design this page so it contains all the basic elements and keeps user engaged at the same time.
+            In first instance I approached this issue by creating an interface consisting of cards with a vertical scroll.
+            The feedback from user testing helped me understand the limitations and frictions that needed to be addressed.
+          </p>
+        </div>
+        <div class="flexbox-item10">
+          <picture>
+            <source scrset="img\fitzen_img\design_dashboard.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\design_dashboard.png" alt="My Image">
+          </picture>
+        </div>
+        <div class="flexbox-item5">
+          <p>In the end I’ve chosen a more personalised interface where user can keep track of progress and navigate easily to other features.
+            White spaces have been used to make the content stand out more and navigation bar has been redesigned for improved accessibility.
+          </p>
+        </div>
+        <div class="flexbox-item5">
+          <p>‘Workouts’ will most likely be one of the more popular features amongst users. Simplicity and clarity were my main concerns in establishing concise content.
+             Initially, cards with icons were selected for workout categories but decided in the end to use a more user friendly approach by adding relevant images to the cards.
+          </p>
+        </div>
+        <div class="flexbox-item10">
+          <picture>
+            <source scrset="img\fitzen_img\design_workout.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\design_workout.png" alt="My Image">
+          </picture>
+        </div>
+        <div class="flexbox-item5">
+          <p>Following user testing I’ve decided to iterate a new version where the workouts are categorised by goals (ie. targeted muscle group) rather than type of exercise.
+
+          </p>
+        </div>
+        <div class="flexbox-item5">
+          <p>Finding a suitable way of gathering information from users which can help them achieve their goals is done by creating a personalised fitness program.
+             The form was initially a one page pop up which contained horizontal scroll , drag and drop and checkboxes for selecting preferences.
+          </p>
+        </div>
+        <div class="flexbox-item10">
+          <picture>
+            <source scrset="img\fitzen_img\design_form.png" media="(max-width:767px)">
+            <img src="img\fitzen_img\design_form.png" alt="My Image">
+          </picture>
+        </div>
+        <div class="flexbox-item5">
+          <p>After user testing and several reitarations the drag and drop mode has been made more intuitive by using well known icons to indicate the function and also I’ve chosen to
+            reduce cognitive load by dividing it into two pages for more space.
+
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <!--<div class="flexbox-container">
+        <h2>Designing for accesibility</h2>
+        <br />
+        <div class="grid-container-imgtxt">
+          <div class="flexbox-item">
+            <picture>
+              <source scrset="img\fitzen_img\low_fi.png" media="(max-width:767px)">
+              <img src="img\fitzen_img\low_fi.png" alt="My Image">
+            </picture>
+          </div>
+
+          <div class="flexbox-item">
+            <p>In the end I’ve chosen a more personalised interface where user can keep track of progress and navigate easily to other features.
+              White spaces have been used to make the content stand out more and navigation bar has been redesigned for improved accessibility.
+            </p>
+          </div>
+
+          <div class="flexbox-item">
+            <picture>
+              <source scrset="img\fitzen_img\low_fi.png" media="(max-width:767px)">
+              <img src="img\fitzen_img\low_fi.png" alt="My Image">
+            </picture>
+          </div>
+
+          <div class="flexbox-item">
+            <p>In the end I’ve chosen a more personalised interface where user can keep track of progress and navigate easily to other features.
+              White spaces have been used to make the content stand out more and navigation bar has been redesigned for improved accessibility.
+            </p>
+          </div>
+
+
+          <div class="flexbox-item">
+            <picture>
+              <source scrset="img\fitzen_img\low_fi.png" media="(max-width:767px)">
+              <img src="img\fitzen_img\low_fi.png" alt="My Image">
+            </picture>
+          </div>
+
+          <div class="flexbox-item">
+            <p>In the end I’ve chosen a more personalised interface where user can keep track of progress and navigate easily to other features.
+              White spaces have been used to make the content stand out more and navigation bar has been redesigned for improved accessibility.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />-->
+
+      <div class="flexbox-container">
+        <h3>VISUAL DESIGN</h3>
+        <h2>Component library</h2>
+
+        <div class="flexbox-item">
+          <p>I’ve created a structured design system to maintain consistency on all screens.
+          </p><br />
+          <p>A design language system makes it possible to ensure that the styling is cohesive and improves user experience.
+          </p>
+        </div>
+<div class="flexbox-item">
+        <picture>
+          <source scrset="img\fitzen_img\style_guide.png" media="(max-width:767px)">
+          <img src="img\fitzen_img\style_guide.png" alt="My Image">
+        </picture>
+      </div><br /><br /><br />
+
+
+      <div class="flexbox-container">
+        <h3>CONCLUSION</h3>
+        <h2>Outcome</h2>
+        <div class="flexbox-item">
+          <p>The initial hypothesis of a holistic approach to fitness encouraging users to do better has come up during the qualitative research
+             where users expressed the desire to see improvement in all aspects of their lives. Subsequently, a second hypothesis could be raised: users will generally see greater improvements if they journal their results and thoughts.
+            I tried to keep these ideas in the forefront when creating the app so that they can be tested later on.
+          </p>
+        </div>
+        <br />
+
+        <h2>Learnings</h2>
+        <div class="flexbox-item">
+          <p>Going through each stage of the UXD process for my case study has taught me about the importance of having a user centred approach towards every project and keeping an open mind regarding the outcomes.
+            I find usability testing to be the most important stage as it’s the best way to test a hypothesis and to discover frictions.
+
+          </p>
+        </div>
+        <br />
+
+        <h2>Whats's next?</h2>
+        <div class="flexbox-item">
+          <p>I would like to further test the high fidelity version of FitZEN to further refine the navigation and certain features. Performing tests and analysis after the app is launched as a MVP can also be a great opportunity to learn about the target audience and their needs.
+            In the future I would also like to tackle the issue of child obesity and develop a feature in FitZEN that would work together with parents and their children.
+          </p>
+        </div>
+        <br />
+      </div>
+    </div>
+</div>
   </main>
 
 
-<footer>
-  <div id="contact">
-  <div class="container">
-    <picture>
-      <img src="img\fitzen_img\round_profile_pic.png" alt="My Image">
-    </picture>
-    <h2>Want to get in touch?</h2>
-<a href="mailto:ux.adrianpenu@gmail.com" class="button email">ux.adrianpenu@gmail.com</a>
-  <div>
-    <ul>
-  <li><a href="https://www.linkedin.com/in/adrian-penu-0b37571b/" target="blank">
-  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewbox="0 0 24 24">
-  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-  </svg>
-  </a>
-  </li>
-  <li><a href= "https://www.behance.net/adrianpenu" target="blank">
-  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewbox="0 0 24 24">
-    <path d="M8.228 15.01h-2.228v-2.01h2.261c1.878 0 2.003 2.01-.033 2.01zm6.758-2.677h3.018c-.117-1.715-2.73-1.977-3.018 0zm-6.804-3.333h-2.182v2h2.389c1.673 0 1.937-2-.207-2zm15.818-4v14c0 2.761-2.238 5-5 5h-14c-2.762 0-5-2.239-5-5v-14c0-2.761 2.238-5 5-5h14c2.762 0 5 2.239 5 5zm-10 3h5v-1h-5v1zm-3.552 3.618c1.907-.974 1.837-4.55-1.813-4.604h-4.635v9.978h4.311c4.522 0 4.445-4.534 2.137-5.374zm9.487.602c-.274-1.763-1.528-2.95-3.583-2.95-2.094 0-3.352 1.34-3.352 3.947 0 2.631 1.367 3.783 3.416 3.783s3.106-1.135 3.4-2h-2.111c-.736.855-2.893.521-2.767-1.353h5.06c.01-.634-.012-1.089-.063-1.427z"/>
-  </svg>
-  </a>
-  </li>
-  <li><a href= "https://www.adrianpenu.com/" target="blank">
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewbox="0 0 128 122" width="35" height="35">
-    	<defs>
-    		<image width="128" height="122" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAB6CAMAAABA6auGAAAAAXNSR0IB2cksfwAAAf5QTFRFAAAAZmZmb29vb29vbGxsa2trbW1tbm5ucHBwa2trcHBwcHBwgICAbW1tcHBwbm5ubm5uX19fSEhIQ0NDPDw8Nzc3MDAwLS0tYGBgb29vbm5ubm5ua2trgICAb29vaWlpWlpaPz8/QUFBaWlpcHBwcHBwT09PUVFRcHBwcnJybW1tVlZWLCwsV1dXbGxsbW1tcHBwa2trLi4ua2trcHBwbm5uYGBgYWFhb29vZmZmVVVVVlZWZWVlVVVVVlZWbm5uYGBga2tra2trcXFxaWlpLi4uaGhobGxsUVFRUlJSbW1tb29vbm5uTU1NTk5Obm5uZmZmaWlpWVlZWVlZb29vbm5uPz8/QEBAbm5ub29vAAAAX19fYGBgcXFxb29vR0dHSUlJa2trREREaWlpa2trPT09ampqbGxsNjY2bGxsa2tra2tra2trbGxsSUlJSUlJYWFhYWFhb29vb29vQEBAQUFBb29vWFhYW1tbcHBwaGhoZmZmT09PUVFRVVVVV1dXcHBwbW1tLy8vMTExbGxsbW1tbW1tc3NzY2NjY2Njb29vVlZWV1dXbm5uZ2dnU1NTVFRUZmZmbm5uYGBgYWFhbm5uLy8vMTExbGxsa2trVlZWV1dXa2trb29vT09PUVFRaWlpWlpaQkJCW1tbbW1tYWFhbm5ucHBwa2trbGxs5ox3/gAAAKp0Uk5TAAVThbPP5vj/soRSBBVpuvzh9v//////4fy5aBMCjMne+fnKiXnb2nYmxdb+18QjVOf56VCE3d+Bc+Tlb+Pjf97q6yLO/c198/N3/Y3q6onREeXmZbv7+7f+AeLkT4j39rj/ttL/0ef/5tDNta/u8ODiTrr6+7bl42TRD+bg3d9ywu/wv+XoH9nbTOLke2308mmA4uR9/Pztxdvdw3Xh3czf+d+247WCsOUL0foBAAACYUlEQVR4nO3bZ1MTYRSG4VciyUoTSDmugNJUUBRB1FhREARsIKCCAiEajUZUsCIWrCjYFbD3xr9kdxaQbEJmnNm858tz/sB9pczsfjhHiIiZl2Cbn2h3KJaOw564ICk5JbJmntS0hekZmU6X20OWjsftcmYuUhdnZcfM5yxZmptnbTl88nMLCmP0l6nL41k3ZoVSNEe+eOWqkvj3iUpWrymN1l9bVi4jr0/5uorI/voNsvL6bPSa+5s2y+wTbdlq+vzb5PaJtleG/f5Sv39jdsz6HxTvlN8nqqqeAeyq4QDU1E73d9dx9InqG4x+zh6ePpFiAPbu4wLsP6D3Uxu5+kSNTRog7SAfoLlFA7Qe4gMcPqK9/6Tz9Yna2kXCUU7AsQ7R2cUJ8NlEt5MT4D8uTrg4AYGT4pSbExAsEw6L37//bzwOoXD29ccBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAOYF9ksvOucp0WZ3iX2ULiLO86X49IOscJOO8VyRc4Ab19IkXlBOi71Rcv8fUvX9EAWVf5ANf6NUA242r39QF9ubzwBlf/ps1Yr2d7HKhTBw5Ft3j6twenTyzu3OXo37s/c2NS+oAD8HDo35lNxSP5/cfDsw+NKkdk9588DT+1evZcbv/FS/Ox2avXMvtvRs197X9QNSYrP/52OLIvRPW793L6Hz4ORetr80n5HP/8F3Vwjrw+nV+/5cez/v1HrS1GXpumlp9tvT5/IGj12W8w4Pf9Un73D8Tu69Pe8edvaMLqw+eJUI+3L0ptEqqIcOGM084KAAAAAElFTkSuQmCC"/>
-    		<image width="93" height="93" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdCAYAAADHcWrDAAAABHNCSVQICAgIfAhkiAAAHsVJREFUeF7tnQmYzeXbx39nhhnGmBmy71TWCIkoFVHZspVkp0TWyBKhsmXJvpRSIcqeFFkiRaEokmVk3w3D7Ksx/8993jmuc85vPTPnDO/7f891nWuW8/ye5X7u516/93Nsyj34qly5cik/P78K6enp5W02W4VixYpViIuLK5Oampqb/4elpKQEFi1a9NLly5eLBQQEJN++fTsqZ86cicHBwWcvXbp0lOeO0y6cZ4/9/fffF+61JdruhQlVq1atRFpaWsOwsLCWELZB8eLFk3LlyhVYqVKlPPfff3/gAw88oEBQJSgoSMmTJ4/9Lb8nJCQo8fHx9rf8Hhsbq5w4cUI5depU8rFjxxKSeF24cCGQDdkRHR29js3afvz48Yt3e813jegQsiCE7VK4cOEOycnJFR577LH0J598Mrh27doK//MaXa5evars3btX+eWXX+L4aeNkHL927dpSxlzCBlz32kAedJTtREd0tISjhyMSqrdq1cr20ksv5SpXrpwHU85a03///VdZu3Zt0rp16xR/f//9UVFRUw4fPrw+a7169nS2Eb1q1ardEQuTWrRoEfj000+H1qtXz7OZ+qD1rl275AREf//990kxMTHDIf5iHwyj6tLnRK9SpUqX3Llzz37mmWf8+vXrl7dEiRLZsS6Pxjh37pwyZ86cODYgNTExsf+hQ4eWedSBh419RnSUYM3Q0NDl7du3L9CxY8d8BQoU8HBq2d88IiJC+eqrr26uXLkyAs5/Gc4/6ItZ+ITo9evXXxoSEtJs6tSpYRDfF/P2aZ9HjhxRhgwZEo2Zun7nzp1dvD2YV4mOkqxRpEiRdT179iwAhwd5c7I//fRT/OLFi9MWLVoU4t5vly5dYkeMGJHOBqs+y8ocli1blvDZZ59dx9pp8c8///ydlb6cn/Ua0R9//PGRWCVDV61aFYYM99b87P1A6MTly5evwvHpgrOj6hs7X0F8rR80aFAjFLVXN1t8gBdffFG4/gMU72RvLMwrRG/YsOFa3g3feeedUE8ntWHDBkVEkJ7ZyOcJH3744c4dO3Y8jwWUrkd0lJ8NsbYfkVazTp06mtMQxwnbXGnatKmn01TGjh0bg6Ldum3bthc9ftjtgSwTHQ6/MGXKlOKemIB4n8qXX36pfPrpp+I12lBeuStUqKBay9GjR5W33npr1w8//FBfPjQjurRp0qTJX5988kl1LStJNqxHjx4JgYGBCiIwqFOnTkqOHDks01BMzJEjR55Hzpey/JBGw6wQ3a9mzZrRaPpgXHXLcxBRsXr16ivIye95KKB79+5devfurZJHOE9K9erV0+FgP0fnVoiOpxuC1RSxb9++QK1JcWqSGH8en+VEJLVo06ZNETbCsjyUk4I1Fk3/YZYX7S1OhwBpHDc/5LilsWmrjB49OpZA1ApERU+Ubm0264f169fn1+rglVdeiThw4EAjYiiHPCF6xol4qm7duisXLFhQSKtvfIY4zMPqKMeThB1mw/k93nvvvTxISEtriYyMVBo0aKCISLP0gBeI7gfBUzmqdzjQbOABAwbcZILhV65ceQUinpH2Tz311IVvvvmmeL58+VSPT548ORkvcRzHeYLzh1Y43dGeWM70bt26vdGrV69c7gMItyJejsEIdntWAm6YuEs4WdVxktQT0lmgKPDMEN7jnUKkxKJMgq1wuMjQ1157LQkvrytctdIxdxTdDI50r9dff111rH///Xexkf9CbtZ0X6snRJdn0TenMPnKaukLUYxbt26d6GyRoNBbEb1cwTMBDz/8sBkvKcLxzz//vMeixiOii9LEVi5uRYYvXbo0EYV2nledM2fORDlWAAGKFSxY8DhEzaO1qpYtW55E5FTms5SsEh1OLAQhd2NuakbU+Fx0hj/jpDvGQuwFc/r2oGfKomhNzU85NTCWR8rVMtGRd9+MGzeulRUr5d13372GPF4J8fq5Ew6zbhufN0SuqmiOgxO7e/fud37++ec5WhviKadncPsYNnLk0KFDVYoVqynh448/XgsDdHYfr3HjxpMQUT04EQXNWJ7nlffff3+NVXPSEtHF8cEUG2bFDodDohAlk3/99ddJ7pMl+NUAwq35+uuvVXITa0DBuTnAca+ht8jMEF36glHOYDWVfvDBB1VdP/fcczE4XY8x56MaDDIMzh/BxphaCxA9BqJPYAOmmG2SKdHFtS9btux2FJvpwNOmTbtMnHoahJumNTAL/PWjjz6qR3+qjznKZyF8vfDw8EveJjprqMIJ+wHilXTv+88//xTbe9PmzZubaI37xBNPDCbuPwR/oagZMWHM6IsXL9ZHZN2xuLSeMSU6YuUs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"/>
-    	</defs>
-    	<style>
-    	</style>
-    	<use id="Background" href="#img1" x="0" y="0"/>
-    	<use id="path_75" href="#img2" transform="matrix(1,0,0,1,17,14)"/>
-    </svg>
-  </a>
-  </li>
-  </ul>
-  </div>
-</div>
-</div>
+  <footer>
+    <div id="contact">
+      <div class="container">
+        <picture>
+          <img src="img\fitzen_img\round_profile_pic.png" alt="My Image">
+        </picture>
+        <h2>Want to get in touch?</h2>
+        <a href="mailto:ux.adrianpenu@gmail.com" class="button email">ux.adrianpenu@gmail.com</a>
+        <div>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/adrian-penu-0b37571b/" target="blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewbox="0 0 24 24">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+              </a>
+            </li>
+            <li><a href="https://www.behance.net/adrianpenu" target="blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewbox="0 0 24 24">
+                  <path
+                    d="M8.228 15.01h-2.228v-2.01h2.261c1.878 0 2.003 2.01-.033 2.01zm6.758-2.677h3.018c-.117-1.715-2.73-1.977-3.018 0zm-6.804-3.333h-2.182v2h2.389c1.673 0 1.937-2-.207-2zm15.818-4v14c0 2.761-2.238 5-5 5h-14c-2.762 0-5-2.239-5-5v-14c0-2.761 2.238-5 5-5h14c2.762 0 5 2.239 5 5zm-10 3h5v-1h-5v1zm-3.552 3.618c1.907-.974 1.837-4.55-1.813-4.604h-4.635v9.978h4.311c4.522 0 4.445-4.534 2.137-5.374zm9.487.602c-.274-1.763-1.528-2.95-3.583-2.95-2.094 0-3.352 1.34-3.352 3.947 0 2.631 1.367 3.783 3.416 3.783s3.106-1.135 3.4-2h-2.111c-.736.855-2.893.521-2.767-1.353h5.06c.01-.634-.012-1.089-.063-1.427z" />
+                </svg>
+              </a>
+            </li>
+            <li><a href="https://www.adrianpenu.com/" target="blank">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewbox="0 0 128 122" width="35" height="35">
+                  <defs>
+                    <image width="128" height="122" id="img1"
+                      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAB6CAMAAABA6auGAAAAAXNSR0IB2cksfwAAAf5QTFRFAAAAZmZmb29vb29vbGxsa2trbW1tbm5ucHBwa2trcHBwcHBwgICAbW1tcHBwbm5ubm5uX19fSEhIQ0NDPDw8Nzc3MDAwLS0tYGBgb29vbm5ubm5ua2trgICAb29vaWlpWlpaPz8/QUFBaWlpcHBwcHBwT09PUVFRcHBwcnJybW1tVlZWLCwsV1dXbGxsbW1tcHBwa2trLi4ua2trcHBwbm5uYGBgYWFhb29vZmZmVVVVVlZWZWVlVVVVVlZWbm5uYGBga2tra2trcXFxaWlpLi4uaGhobGxsUVFRUlJSbW1tb29vbm5uTU1NTk5Obm5uZmZmaWlpWVlZWVlZb29vbm5uPz8/QEBAbm5ub29vAAAAX19fYGBgcXFxb29vR0dHSUlJa2trREREaWlpa2trPT09ampqbGxsNjY2bGxsa2tra2tra2trbGxsSUlJSUlJYWFhYWFhb29vb29vQEBAQUFBb29vWFhYW1tbcHBwaGhoZmZmT09PUVFRVVVVV1dXcHBwbW1tLy8vMTExbGxsbW1tbW1tc3NzY2NjY2Njb29vVlZWV1dXbm5uZ2dnU1NTVFRUZmZmbm5uYGBgYWFhbm5uLy8vMTExbGxsa2trVlZWV1dXa2trb29vT09PUVFRaWlpWlpaQkJCW1tbbW1tYWFhbm5ucHBwa2trbGxs5ox3/gAAAKp0Uk5TAAVThbPP5vj/soRSBBVpuvzh9v//////4fy5aBMCjMne+fnKiXnb2nYmxdb+18QjVOf56VCE3d+Bc+Tlb+Pjf97q6yLO/c198/N3/Y3q6onREeXmZbv7+7f+AeLkT4j39rj/ttL/0ef/5tDNta/u8ODiTrr6+7bl42TRD+bg3d9ywu/wv+XoH9nbTOLke2308mmA4uR9/Pztxdvdw3Xh3czf+d+247WCsOUL0foBAAACYUlEQVR4nO3bZ1MTYRSG4VciyUoTSDmugNJUUBRB1FhREARsIKCCAiEajUZUsCIWrCjYFbD3xr9kdxaQbEJmnNm858tz/sB9pczsfjhHiIiZl2Cbn2h3KJaOw564ICk5JbJmntS0hekZmU6X20OWjsftcmYuUhdnZcfM5yxZmptnbTl88nMLCmP0l6nL41k3ZoVSNEe+eOWqkvj3iUpWrymN1l9bVi4jr0/5uorI/voNsvL6bPSa+5s2y+wTbdlq+vzb5PaJtleG/f5Sv39jdsz6HxTvlN8nqqqeAeyq4QDU1E73d9dx9InqG4x+zh6ePpFiAPbu4wLsP6D3Uxu5+kSNTRog7SAfoLlFA7Qe4gMcPqK9/6Tz9Yna2kXCUU7AsQ7R2cUJ8NlEt5MT4D8uTrg4AYGT4pSbExAsEw6L37//bzwOoXD29ccBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAOYF9ksvOucp0WZ3iX2ULiLO86X49IOscJOO8VyRc4Ab19IkXlBOi71Rcv8fUvX9EAWVf5ANf6NUA242r39QF9ubzwBlf/ps1Yr2d7HKhTBw5Ft3j6twenTyzu3OXo37s/c2NS+oAD8HDo35lNxSP5/cfDsw+NKkdk9588DT+1evZcbv/FS/Ox2avXMvtvRs197X9QNSYrP/52OLIvRPW793L6Hz4ORetr80n5HP/8F3Vwjrw+nV+/5cez/v1HrS1GXpumlp9tvT5/IGj12W8w4Pf9Un73D8Tu69Pe8edvaMLqw+eJUI+3L0ptEqqIcOGM084KAAAAAElFTkSuQmCC" />
+                    <image width="93" height="93" id="img2"
+                      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdCAYAAADHcWrDAAAABHNCSVQICAgIfAhkiAAAHsVJREFUeF7tnQmYzeXbx39nhhnGmBmy71TWCIkoFVHZspVkp0TWyBKhsmXJvpRSIcqeFFkiRaEokmVk3w3D7Ksx/8993jmuc85vPTPnDO/7f891nWuW8/ye5X7u516/93Nsyj34qly5cik/P78K6enp5W02W4VixYpViIuLK5Oampqb/4elpKQEFi1a9NLly5eLBQQEJN++fTsqZ86cicHBwWcvXbp0lOeO0y6cZ4/9/fffF+61JdruhQlVq1atRFpaWsOwsLCWELZB8eLFk3LlyhVYqVKlPPfff3/gAw88oEBQJSgoSMmTJ4/9Lb8nJCQo8fHx9rf8Hhsbq5w4cUI5depU8rFjxxKSeF24cCGQDdkRHR29js3afvz48Yt3e813jegQsiCE7VK4cOEOycnJFR577LH0J598Mrh27doK//MaXa5evars3btX+eWXX+L4aeNkHL927dpSxlzCBlz32kAedJTtREd0tISjhyMSqrdq1cr20ksv5SpXrpwHU85a03///VdZu3Zt0rp16xR/f//9UVFRUw4fPrw+a7169nS2Eb1q1ardEQuTWrRoEfj000+H1qtXz7OZ+qD1rl275AREf//990kxMTHDIf5iHwyj6tLnRK9SpUqX3Llzz37mmWf8+vXrl7dEiRLZsS6Pxjh37pwyZ86cODYgNTExsf+hQ4eWedSBh419RnSUYM3Q0NDl7du3L9CxY8d8BQoU8HBq2d88IiJC+eqrr26uXLkyAs5/Gc4/6ItZ+ITo9evXXxoSEtJs6tSpYRDfF/P2aZ9HjhxRhgwZEo2Zun7nzp1dvD2YV4mOkqxRpEiRdT179iwAhwd5c7I//fRT/OLFi9MWLVoU4t5vly5dYkeMGJHOBqs+y8ocli1blvDZZ59dx9pp8c8///ydlb6cn/Ua0R9//PGRWCVDV61aFYYM99b87P1A6MTly5evwvHpgrOj6hs7X0F8rR80aFAjFLVXN1t8gBdffFG4/gMU72RvLMwrRG/YsOFa3g3feeedUE8ntWHDBkVEkJ7ZyOcJH3744c4dO3Y8jwWUrkd0lJ8NsbYfkVazTp06mtMQxwnbXGnatKmn01TGjh0bg6Ldum3bthc9ftjtgSwTHQ6/MGXKlOKemIB4n8qXX36pfPrpp+I12lBeuStUqKBay9GjR5W33npr1w8//FBfPjQjurRp0qTJX5988kl1LStJNqxHjx4JgYGBCiIwqFOnTkqOHDks01BMzJEjR55Hzpey/JBGw6wQ3a9mzZrRaPpgXHXLcxBRsXr16ivIye95KKB79+5devfurZJHOE9K9erV0+FgP0fnVoiOpxuC1RSxb9++QK1JcWqSGH8en+VEJLVo06ZNETbCsjyUk4I1Fk3/YZYX7S1OhwBpHDc/5LilsWmrjB49OpZA1ApERU+Ubm0264f169fn1+rglVdeiThw4EAjYiiHPCF6xol4qm7duisXLFhQSKtvfIY4zMPqKMeThB1mw/k93nvvvTxISEtriYyMVBo0aKCISLP0gBeI7gfBUzmqdzjQbOABAwbcZILhV65ceQUinpH2Tz311IVvvvmmeL58+VSPT548ORkvcRzHeYLzh1Y43dGeWM70bt26vdGrV69c7gMItyJejsEIdntWAm6YuEs4WdVxktQT0lmgKPDMEN7jnUKkxKJMgq1wuMjQ1157LQkvrytctdIxdxTdDI50r9dff111rH///Xexkf9CbtZ0X6snRJdn0TenMPnKaukLUYxbt26d6GyRoNBbEb1cwTMBDz/8sBkvKcLxzz//vMeixiOii9LEVi5uRYYvXbo0EYV2nledM2fORDlWAAGKFSxY8DhEzaO1qpYtW55E5FTms5SsEh1OLAQhd2NuakbU+Fx0hj/jpDvGQuwFc/r2oGfKomhNzU85NTCWR8rVMtGRd9+MGzeulRUr5d13372GPF4J8fq5Ew6zbhufN0SuqmiOgxO7e/fud37++ec5WhviKadncPsYNnLk0KFDVYoVqynh448/XgsDdHYfr3HjxpMQUT04EQXNWJ7nlffff3+NVXPSEtHF8cEUG2bFDodDohAlk3/99ddJ7pMl+NUAwq35+uuvVXITa0DBuTnAca+ht8jMEF36glHOYDWVfvDBB1VdP/fcczE4XY8x56MaDDIMzh/BxphaCxA9BqJPYAOmmG2SKdHFtS9btux2FJvpwNOmTbtMnHoahJumNTAL/PWjjz6qR3+qjznKZyF8vfDw8EveJjprqMIJ+wHilXTv+88//xTbe9PmzZubaI37xBNPDCbuPwR/oagZMWHM6IsXL9ZHZN2xuLSeMSU6YuUs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" />
+                  </defs>
+                  <style>
+                  </style>
+                  <use id="Background" href="#img1" x="0" y="0" />
+                  <use id="path_75" href="#img2" transform="matrix(1,0,0,1,17,14)" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <p class="copyright">Copyright Adrian Penu 2022</p>
+    <p class="copyright">Copyright Adrian Penu 2022</p>
 
 
-</footer>
-<script src="js/scripts.js"></script>
-  </body>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
