@@ -134,17 +134,17 @@ header {
 }
 
 .grid-container {
-  padding: 0 30px;
+  padding: 10px 30px;
   background-color: #fff2ca;
 }
 
 .grid-container2 {
-  padding: 0 30px;
+  padding: 10px 30px;
   background-color: #fafafa;
 }
 
 .grid-container3 {
-  padding: 0 50px;
+  padding: 10px 50px;
   background-color: #fafafa;
 }
 
@@ -153,10 +153,20 @@ header {
   background-color: #fff;
 }
 
+.grid-container-proto {
+  background-color: #fff;
+  padding: 0 30px;
+}
+
+.grid-container-121 {
+  background-color: #2b2b2b;
+  padding: 0 30px 10px;
+}
+
 .flexbox-item5 {
   font-family: Noto Sans, sans-serif;
   color: #fff;
-  padding: 0 50px;
+  padding: 10px 20px 0;
   margin-top: 10px;
 }
 
@@ -466,15 +476,6 @@ nav > ul {
     padding: 0;
   }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-row-gap: 40px;
-    align-items: start;
-    margin: 0 10px;
-    padding: 0;
-  }
-
   .flexbox-container h2 {
     margin: 0;
     font-size: 2.25em;
@@ -532,23 +533,6 @@ nav > ul {
     padding: 0 0 0 10px;
   }
 
-  .grid-container-proto {
-    grid-template-columns: 1fr 3fr;
-    display: grid;
-    grid-gap: 10px;
-    align-items: start;
-    background-color: #fff;
-    padding: 0 30px;
-  }
-
-  .grid-container-121 {
-    grid-template-columns: 1fr 2fr 1fr;
-    display: grid;
-    grid-gap: 10px;
-    align-items: start;
-    background-color: #2b2b2b;
-  }
-
   .grid-container-imgtxt {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -574,7 +558,7 @@ nav > ul {
   }
 
   h4 {
-    padding: 0 280px;
+    padding: 0 200px;
   }
 
   #fitzen h3 {
@@ -711,9 +695,21 @@ nav > ul {
     margin: 0;
   }
 
+  .grid-container-121 {
+    grid-template-columns: 1fr 2fr 1fr;
+    display: grid;
+    grid-gap: 10px;
+    align-items: start;
+    background-color: #2b2b2b;
+  }
+
   .grid-container {
     margin: 0;
     padding: 0 0 0 160px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row-gap: 40px;
+    align-items: start;
   }
 
   .grid-container2 {
@@ -731,6 +727,12 @@ nav > ul {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
+    grid-template-columns: 1fr 3fr;
+    display: grid;
+    grid-gap: 10px;
+    align-items: start;
+    background-color: #fff;
+    padding: 0 30px;
   }
 
   [class*="flexbox-item-"] {
@@ -749,10 +751,6 @@ nav > ul {
 }
 
 @media only screen and (max-width: 640px) {
-  .container {
-    padding: 0 30px;
-  }
-
   .tools {
     margin-top: 30px;
   }
@@ -780,14 +778,13 @@ nav > ul {
     margin: 50px 40px;
   }
 
+  #fitzen .container {
+    padding: 50px 20px;
+  }
+
   .row {
     margin: 0;
     padding: 60px 20px;
-  }
-
-  #contact h2 {
-    font-weight: 600;
-    font-size: 2em;
   }
 
   #contact p {
