@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 1.5rem;
   color: #2b2b2b;
 }
 
@@ -453,6 +453,34 @@ nav > ul {
   text-decoration: line-through;
 }
 
+blockquote.pullquote {
+  max-width: 800px;
+  text-align: center;
+  color: #b51a17;
+  font-family: CallunaRegular, Georgia, serif;
+  font-size: 2.125rem;
+  margin-top: 4.5rem;
+  margin-bottom: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  line-height: 3.375rem;
+}
+
+blockquote.pullquote::before,
+blockquote.pullquote::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 1px;
+  background: #999;
+}
+
+blockquote.pullquote::before,
+blockquote.pullquote::after {
+  margin: 1.125rem auto;
+}
+
 @media only screen and (min-width: 641px) {
   #hero .container {
     margin: 60px 30px;
@@ -707,10 +735,10 @@ nav > ul {
   .grid-container3 {
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 0;
     align-items: start;
-    background-color: #fafafa;
-    padding: 0 60px;
+    background-color: #fff;
+    padding: 0 75px;
   }
 
   .grid-container-white {
