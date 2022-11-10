@@ -141,7 +141,7 @@ header {
 
 .grid-container2 {
   padding: 10px 30px;
-  background-color: #fafafa;
+  background-color: #fff;
 }
 
 .grid-container3 {
@@ -543,7 +543,7 @@ blockquote.pullquote::after {
     display: grid;
     grid-gap: 10px;
     align-items: start;
-    background-color: #fafafa;
+    background-color: #fff;
     margin: 0 10px;
     padding: 0 0 0 10px;
   }
