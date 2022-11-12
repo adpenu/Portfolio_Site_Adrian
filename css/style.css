@@ -305,7 +305,7 @@ nav > ul > li > a {
 #hero p {
   font-size: 3em;
   font-weight: 500;
-  color: #2d2d2d;
+  color: #2b2b2b;
   margin: 0;
   display: inline-block;
 }
@@ -484,6 +484,14 @@ blockquote.pullquote::after {
 blockquote.pullquote::before,
 blockquote.pullquote::after {
   margin: 1.125rem auto;
+}
+
+#hero .flexbox-item:nth-child(2) {
+  display: none;
+}
+
+.more_about_me {
+  padding: 60px 60px 0 0;
 }
 
 @media only screen and (min-width: 641px) {
@@ -701,15 +709,18 @@ blockquote.pullquote::after {
 }
 
 @media only screen and (min-width: 1024px) {
-  #hero .container {
-    margin: 150px auto 90px;
-    padding: 0 120px 120px;
-  }
-
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #hero {
+    padding: 150px 20px 100px 100px;
+  }
+
+  .grid-container-intro {
+    flex-grow: 1;
   }
 
   .flexbox-container {
@@ -802,6 +813,36 @@ blockquote.pullquote::after {
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .grid-container-intro {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 10px;
+    align-items: start;
+    background-color: #fff;
+    margin: 0;
+    padding: 50px 10px;
+  }
+
+  #hero .flexbox-item:nth-child(2) {
+    display: grid;
+  }
+
+  #hero p {
+    font-weight: 300;
+    font-size: 2.75em;
+    margin: 0;
+  }
+
+  #hero {
+    padding: 130px 160px 100px 165px;
+  }
+
+  #hero img {
+    margin-top: 15px;
+  }
+}
+
 @media only screen and (max-width: 640px) {
   .tools {
     margin-top: 30px;
@@ -826,7 +867,7 @@ blockquote.pullquote::after {
 
   #hero p {
     font-weight: 300;
-    font-size: 2.25em;
+    font-size: 2.1em;
     margin: 50px 40px;
   }
 
@@ -853,5 +894,9 @@ blockquote.pullquote::after {
 
   #contact p {
     padding: 0 30px;
+  }
+
+  .more_about_me {
+    padding: 0 0 0 40px;
   }
 }
