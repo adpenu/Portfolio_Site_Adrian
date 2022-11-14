@@ -378,17 +378,6 @@ nav > ul > li > a:focus {
   text-decoration: underline;
 }
 
-header {
-  background-color: #fff;
-  top: 0;
-  right: 0;
-  padding: 10px 0 4px;
-  margin: 0;
-  width: 100%;
-  position: fixed;
-  box-shadow: 0 2px 5px 0 rgba(50, 50, 40, 0.1);
-}
-
 .logo {
   max-width: 100px;
   float: left;
@@ -625,11 +614,12 @@ u {
 
   h1 {
     margin-bottom: 0;
+    margin-top: 30px;
   }
 
   header {
     text-align: unset;
-    padding: 20px 0 10px;
+    padding: 10px 0;
   }
 
   nav > ul > li {
