@@ -1,7 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
-* { box-sizing: border-box; }
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #fff;
@@ -18,7 +21,6 @@ primary colour (white): #FFFFFF
 secondary colour (navy blue): #090939
 secondary colour (grey): #595959
 tertiatry colour (beije): #7E7269 */
-
 h1,
 h2,
 h3,
@@ -57,15 +59,20 @@ img {
 a {
   color: #2b2b2b;
   font-weight: bold;
-  text-decoration: none; /* no underlying */
+  text-decoration: none;
+
+  /* no underlying */
 }
 
 a:hover {
   opacity: 0.8;
-  text-decoration: none; /* underlying when hovering over a link */
+  text-decoration: none;
+
+  /* underlying when hovering over a link */
 }
 
-a:active { /* selected link */
+a:active {
+  /* selected link */
   color: #994c30;
 }
 
@@ -281,14 +288,6 @@ nav > ul > li > a {
   color: #2b2b2b;
 }
 
-#work h2 {
-  padding: 60px 0 0 20px;
-  font-size: 35px;
-  font-weight: 300;
-  color: #fff;
-  margin: 0;
-}
-
 #work h3 {
   margin: 0 0 10px;
   font-weight: 300;
@@ -297,13 +296,13 @@ nav > ul > li > a {
 #hero {
   background-color: #fff;
   color: #2d2d2d;
-  padding: 133px 60px 70px;
+  padding: 150px 40px 70px;
   display: inline-block;
   width: 100%;
 }
 
 #hero p {
-  font-size: 3em;
+  font-size: 2.75em;
   font-weight: 500;
   color: #2b2b2b;
   margin: 0;
@@ -407,7 +406,7 @@ footer svg:hover {
 }
 
 .col-md-6.col-lg-4 {
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 nav > ul {
@@ -468,7 +467,6 @@ blockquote.pullquote {
   margin-bottom: 1.25rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 30px;
   line-height: 3rem;
 }
 
@@ -491,7 +489,7 @@ blockquote.pullquote::after {
 }
 
 .more_about_me {
-  padding: 60px 60px 0 0;
+  padding: 60px 60px 60px 0;
 }
 
 u {
@@ -502,6 +500,17 @@ u {
   font-style: italic;
   text-align: center;
   color: #acb5c3;
+}
+
+#hero .pullquote {
+  margin-bottom: 0;
+}
+
+#hero h4 {
+  text-align: center;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 @media only screen and (min-width: 641px) {
@@ -525,6 +534,14 @@ u {
     align-items: center;
     margin: 0 20px;
     padding: 0;
+  }
+
+  #work h2 {
+    padding: 60px 0 0 20px;
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
   }
 
   .flexbox-container h2 {
@@ -598,6 +615,10 @@ u {
   .flexbox-item h4 {
     margin-top: 10px;
     text-align: center;
+  }
+
+  .more_about_me {
+    padding: 60px 60px 60px 0;
   }
 
   #fitzen h3 {
@@ -726,7 +747,7 @@ u {
   }
 
   #hero {
-    padding: 150px 20px 100px 100px;
+    padding: 150px 100px 100px;
   }
 
   .grid-container-intro {
@@ -831,7 +852,7 @@ u {
     align-items: start;
     background-color: #fff;
     margin: 0;
-    padding: 50px 10px;
+    padding: 50px 10px 0;
   }
 
   #hero .flexbox-item:nth-child(2) {
@@ -851,66 +872,62 @@ u {
   #hero img {
     margin-top: 15px;
   }
-}
 
-@media only screen and (max-width: 640px) {
-  .tools {
-    margin-top: 30px;
-  }
+  @media only screen and (max-width: 640px) {
+    .tools {
+      margin-top: 30px;
+    }
 
-  #work h2 {
-    padding-left: 10px;
-  }
+    #work h2 {
+      padding-left: 0;
+    }
 
-  #hero-story h2 {
-    margin-top: 20px;
-  }
+    #hero-story h2 {
+      margin-top: 20px;
+    }
 
-  #hero {
-    padding: 133px 30px 100px;
-  }
+    #hero .container {
+      padding: 0;
+      margin: 0;
+    }
 
-  #hero .container {
-    padding: 0;
-    margin: 0;
-  }
+    #hero p {
+      font-weight: 300;
+      font-size: 2.1em;
+      margin: 50px 40px;
+    }
 
-  #hero p {
-    font-weight: 300;
-    font-size: 2.1em;
-    margin: 50px 40px;
-  }
+    #fitzen .container {
+      padding: 50px 20px;
+    }
 
-  #fitzen .container {
-    padding: 50px 20px;
-  }
+    .flexbox-container h2 {
+      font-family: BebasNeueRegular, Helvetica Neue, arial, sans-serif;
+      margin-top: 10px;
+      font-weight: 800;
+    }
 
-  .flexbox-container h2 {
-    font-family: BebasNeueRegular, Helvetica Neue, arial, sans-serif;
-    margin-top: 10px;
-    font-weight: 800;
-  }
+    .flexbox-container h3 {
+      font-family: BebasNeueRegular, Helvetica Neue, arial, sans-serif;
+      font-size: 1.25rem;
+      margin-bottom: 0;
+    }
 
-  .flexbox-container h3 {
-    font-family: BebasNeueRegular, Helvetica Neue, arial, sans-serif;
-    font-size: 1.25rem;
-    margin-bottom: 0;
-  }
+    .row {
+      margin: 0;
+      padding: 60px 20px;
+    }
 
-  .row {
-    margin: 0;
-    padding: 60px 20px;
-  }
+    #contact p {
+      padding: 0 30px;
+    }
 
-  #contact p {
-    padding: 0 30px;
-  }
+    .more_about_me {
+      padding: 0 0 0 40px;
+    }
 
-  .more_about_me {
-    padding: 0 0 0 40px;
-  }
-
-  #fitzen h1 {
-    font-size: 3.5rem;
+    #fitzen h1 {
+      font-size: 3.5rem;
+    }
   }
 }
