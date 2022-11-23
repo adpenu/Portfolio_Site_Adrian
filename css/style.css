@@ -484,6 +484,10 @@ blockquote.pullquote::after {
   margin: 1.125rem auto;
 }
 
+#hero blockquote.pullquote {
+  color: #2b2b2b;
+}
+
 #hero .flexbox-item:nth-child(2) {
   display: none;
 }
