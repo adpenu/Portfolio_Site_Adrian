@@ -322,7 +322,7 @@ nav > ul > li > a {
 
 #hero-story h2 {
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.3em;
   margin-top: 0;
 }
@@ -354,7 +354,7 @@ nav > ul > li > a {
   margin: 0;
   background-color: #2b2b2b;
   color: #fff;
-  padding: 60px;
+  padding: 30px;
   max-width: 100%;
 }
 
@@ -655,6 +655,14 @@ u {
 
   #fitzen h1 {
     font-size: 3.5rem;
+  }
+
+  #fitzen .container {
+    padding: 60px;
+  }
+
+  #hero-story h2 {
+    font-size: 2em;
   }
 
   .flexbox-item3 {
