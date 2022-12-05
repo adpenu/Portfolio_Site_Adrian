@@ -465,8 +465,8 @@ blockquote.pullquote {
   font-size: 1.75rem;
   margin-top: 2.5rem;
   margin-bottom: 1.25rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 10px;
   line-height: 3rem;
 }
 
