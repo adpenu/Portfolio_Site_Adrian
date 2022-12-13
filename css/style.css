@@ -695,7 +695,7 @@ u {
   }
 
   .col-md-6 img {
-    padding-top: 10px;
+    border-radius: 7px;
   }
 
   .row {
