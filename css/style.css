@@ -147,7 +147,7 @@ header {
 
 .grid-container2 {
   padding: 10px 30px;
-  background-color: #fff;
+  
 }
 
 .grid-container3 {
@@ -269,7 +269,32 @@ footer ul li a {
 .copyright {
   font-size: 14px;
 }
+.chart{
+  padding:30px;
+}
+.whitescr{
+  background-color: #F4F6F7;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    padding: 0;
+    margin: 0;
 
+}
+#fitzen .diagram p{
+  text-align: center;
+  font-size: 17px;
+  font-style:italic;
+}
+
+video {
+  
+    height: 100%;
+    width: 100%;
+  
+}
 nav > ul {
   list-style-type: none;
   padding: 0 10px;
@@ -543,7 +568,7 @@ u {
   }
 
   #work h2 {
-    padding: 60px 0 0 20px;
+    padding: 60px 0 0 50px;
     font-size: 35px;
     font-weight: 300;
     color: #fff;
@@ -588,7 +613,7 @@ u {
     display: grid;
     grid-gap: 10px;
     align-items: start;
-    background-color: #fff;
+    
     margin: 0 10px;
     padding: 0 0 0 10px;
   }
@@ -696,6 +721,7 @@ u {
 
   .col-md-6 img {
     border-radius: 7px;
+    margin-top: 10px;
   }
 
   .row {
@@ -944,5 +970,6 @@ u {
     #contact p {
       padding: 0 30px;
     }
+    
   }
 }
