@@ -85,18 +85,40 @@ a:focus {
   display: inline-block;
   background-color: #2b2b2b;
   text-transform: capitalize;
-  color: #ffb31a;
-  font-size:18px;
-  font-weight: lighter;
+  color: #fbfbfb;
+  font-size:15px;
+  font-weight: 540;
+  padding: 5px 27px;
+  margin: 7px 0 0 2px;
+  border: 0.6px solid rgb(253, 253, 253);
+  border-radius: 4px;
+}
+.button-cv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 27px;
+  gap: 10px;
+  width: 166px;
+  height: 39px;
+  left: 20px;
+  top: 69px;
+  background-color: #fff;
+  text-transform: capitalize;
+  color: #1f1f1f;
+  font-size:15px;
+  font-weight:600;
   padding: 0;
-  margin:10px 0 0 0;
-  text-decoration:none;
+  margin:44px 0 0;
+  border: 0.6px solid rgba(34, 34, 34, 0.7);
+  border-radius: 4px;
 }
 
 .button:hover {
   opacity: 0.8;
-  text-decoration: underline;
-  color: #ffb31a;
+  text-decoration: none;
+  color: #ffbfbfb;
 }
 
 .button:active {
@@ -105,17 +127,18 @@ a:focus {
 
 .button.email {
   background-color: #fff;
-  color: #2b2b2b;
+  color: #1f1f1f;
   font-weight: 700;
-  padding: 5px 10px;
-  margin: 7px 0 0 2px;
-  text-decoration: underline;
+  padding: 8px 27px;
+  margin: 10px 0 0;
   text-transform: lowercase;
-  border-radius: 10px;
+  border: 0.6px solid rgba(34, 34, 34, 0.7);
+  border-radius: 4px;
 }
 
 .button.email:hover {
   opacity: 0.8;
+  text-decoration: none;
 }
 
 header {
@@ -123,6 +146,7 @@ header {
   padding:0;
   margin: 0;
   width: 100%;
+  top: 0;
   position: fixed;
   
 }
@@ -246,7 +270,7 @@ footer ul {
   text-align: center;
   padding: 0;
   list-style-type: none;
-  margin-top: 35px;
+  margin-top: 40px;
 }
 
 footer ul li {
@@ -258,7 +282,7 @@ footer ul li a {
 }
 
 #contact .container {
-  padding: 150px 10px 80px;
+  padding: 140px 10px 80px;
 }
 
 #contact img {
