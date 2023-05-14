@@ -85,10 +85,12 @@ a:focus {
   display: inline-block;
   background-color: #385446;
   text-transform: uppercase;
-  color: #fff;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 13px;
+  color: #fbfbfb;
+  font-size:14px;
+  font-weight: 200;
+  padding: 8px 70px;
+  margin:0;
+  border-radius: 4px;
   text-decoration: none;
 }
 
