@@ -83,21 +83,20 @@ a:focus {
 
 .button {
   display: inline-block;
-  background-color: #385446;
-  text-transform: uppercase;
-  color: #fbfbfb;
-  font-size:14px;
-  font-weight: 200;
-  padding: 8px 70px;
-  margin:0;
-  border-radius: 4px;
-  text-decoration: none;
+  background-color: #2b2b2b;
+  text-transform: capitalize;
+  color: #ffb31a;
+  font-size:18px;
+  font-weight: lighter;
+  padding: 0;
+  margin:10px 0 0 0;
+  text-decoration:none;
 }
 
 .button:hover {
   opacity: 0.8;
-  text-decoration: none;
-  color: #fff;
+  text-decoration: underline;
+  color: #ffb31a;
 }
 
 .button:active {
@@ -121,10 +120,11 @@ a:focus {
 
 header {
   background-color: #fff;
-  padding: 10px 0 4px;
+  padding:0;
   margin: 0;
   width: 100%;
   position: fixed;
+  
 }
 
 /* Layout styling */
@@ -231,7 +231,7 @@ footer {
   background-color: #fff;
   color: #090939;
   text-align: center;
-  padding: 33px 0 10px;
+  padding: 70px 0 10px;
   margin: 0;
   width: 100%;
   box-shadow: 5px 2px 0 0 rgba(50, 50, 50, 0.1);
@@ -405,21 +405,11 @@ nav > ul > li > a:focus {
   text-decoration: underline;
 }
 
-header {
-  background-color: #fff;
-  top: 0;
-  right: 0;
-  padding: 10px 0 4px;
-  margin: 0;
-  width: 100%;
-  position: fixed;
-}
-
 .logo {
   max-width: 100px;
   float: left;
   padding: 10px;
-  margin: 10px 10px 0 0;
+  margin: 5px 10px 0 0;
 }
 
 footer svg {
@@ -698,11 +688,6 @@ u {
     margin-bottom: 0;
   }
 
-  header {
-    text-align: unset;
-    padding: 20px 0 10px;
-  }
-
   nav > ul > li {
     display: inline-block;
   }
@@ -911,6 +896,7 @@ u {
     margin: 0;
     padding: 30px 13px 0;
   }
+  
 
   #hero .flexbox-item:nth-child(2) {
     display: grid;
@@ -931,6 +917,7 @@ u {
   }
 
   @media only screen and (max-width: 640px) {
+  
     .tools {
       margin-top: 30px;
     }
@@ -972,6 +959,7 @@ u {
     #contact p {
       padding: 0 30px;
     }
+
     
   }
 }
