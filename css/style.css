@@ -46,10 +46,11 @@ h3 {
 }
 
 h4 {
-  font-size: 1.25em;
+  font-size: 1.15em;
   font-weight: 200;
   margin-top: 10px;
   padding: 0;
+  text-align: center;
 }
 
 img {
@@ -313,6 +314,7 @@ footer ul li a {
   text-align: center;
   font-size: 17px;
   font-style:italic;
+  padding: 0 10px;
 }
 
 video {
@@ -501,7 +503,7 @@ nav > ul {
 
 blockquote.pullquote {
   text-align: center;
-  color: #b51a17;
+  color: #2b2b2b;
   font-family: CallunaRegular, Georgia, serif;
   font-size: 1.75rem;
   margin-top: 2.5rem;
@@ -511,25 +513,6 @@ blockquote.pullquote {
   line-height: 3rem;
 }
 
-blockquote.pullquote::before,
-blockquote.pullquote::after {
-  content: "";
-  display: block;
-  width: 10%;
-  height: 1px;
-  background: #999;
-}
-
-blockquote.pullquote::before,
-blockquote.pullquote::after {
-  margin: 1.125rem auto;
-}
-
-#hero blockquote.pullquote {
-  color: #2b2b2b;
-  font-size: 1.85em;
-  line-height: 2.25rem;
-}
 
 #hero .flexbox-item:nth-child(2) {
   display: none;
@@ -892,7 +875,7 @@ u {
   blockquote.pullquote {
     max-width: 800px;
     text-align: center;
-    color: #b51a17;
+    color: #1f1f1;
     font-family: CallunaRegular, Georgia, serif;
     font-size: 2.125rem;
     margin-top: 4.5rem;
@@ -903,11 +886,7 @@ u {
     line-height: 3.375rem;
   }
 
-  #hero blockquote.pullquote {
-    color: #2b2b2b;
-    font-size: 2.125rem;
-    line-height: 3.375rem;
-  }
+
 }
 
 @media only screen and (min-width: 1200px) {
