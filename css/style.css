@@ -46,7 +46,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1em;
+  font-size: 1.15em;
   font-weight:lighter;
   margin-top: 10px;
   padding: 0;
@@ -88,7 +88,7 @@ a:focus {
   text-transform: capitalize;
   color: #fbfbfb;
   font-size:15px;
-  font-weight: 540;
+  font-weight: 400;
   padding: 5px 27px;
   margin: 7px 0 0 2px;
   border: 0.6px solid rgb(253, 253, 253);
@@ -343,9 +343,9 @@ nav > ul > li > a {
 }
 
 #work h3 {
-  font-family: Noto Sans, sans-serif;
+  font-family: BebasNeueRegular, Helvetica Neue, arial, sans-;
   margin: 0 0 10px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 #hero {
@@ -418,10 +418,6 @@ nav > ul > li > a {
   background-color: #2b2b2b;
   color: #fff;
   padding-bottom: 10px;
-}
-
-#work p {
-  font-family: Noto Sans, sans-serif;
 }
 
 nav > ul > li > a:hover {
@@ -549,7 +545,7 @@ u {
 @media only screen and (min-width: 641px) {
   #hero .container {
     margin: 60px 30px;
-    padding: 0 40px;
+    padding: 0 100px 0px 40px;
   }
 
   #hero-story .container {
@@ -570,7 +566,6 @@ u {
   }
 
   #work h2 {
-    font-family: Noto Sans, sans-serif;
     padding: 60px 0 0 50px;
     font-size: 35px;
     font-weight: 300;
@@ -585,7 +580,7 @@ u {
   .flexbox-container h2 {
     font-family: BebasNeueRegular, Helvetica Neue, arial, sans-serif;
     margin: 0;
-    font-size: 2.25em;
+    font-size: 1.85em;
     font-weight: 900;
   }
 
@@ -910,7 +905,7 @@ u {
   }
 
   #hero p {
-    font-weight: 300;
+    font-weight:300;
     font-size: 2.75em;
     margin: 0;
   }

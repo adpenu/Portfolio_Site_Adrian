@@ -10,6 +10,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+<style>
+  #hero .grid-container-intro .hero-graphic {
+    display: none;
+  }
+  @media only screen and (min-width: 1200px) {
+    #hero .grid-container-intro .hero-graphic {
+      display: block;
+      overflow: hidden;
+    }
+    #hero .grid-container-intro .hero-graphic img {
+      width: 75%;
+      max-width: none;
+      height: auto;
+      display: block;
+      margin-left: 30%;
+
+    }
+    #hero .grid-container-intro {
+      align-items: center;
+      grid-template-columns: 3fr 2fr;
+    }
+    #hero p {
+      line-height: 1.25;
+    }
+    #hero {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    #hero .container {
+      margin: 0 auto;
+      padding: 0 30px;
+      max-width: 1200px;
+    }
+  }
+</style>
 </head>
 
 
@@ -33,21 +68,27 @@
      <a name="intro"></a>
     <main>
     <div id="hero">
+    
+        <div class="container">
       <div class="grid-container-intro">
-        <div class="flexbox-item">
-      <p>I’m Adrian,<br/> UX Designer with experience in Vertical SaaS solutions.</p>
+      <div class="flexbox-item">
+      <p>Hi, I’m Adrian <br/>UX and service designer interested in complex systems, mapping and behavioural design.<br/>Expertise in dentistry.</p>
       <div class="more_about_me"> <a href="about.html">More about me</a></div>
+      </div>
+      <div class="flexbox-item hero-graphic">
+        <img src="img/pumpux_img/graphic.png" alt="Hand-drawn scribble graphic">
+      </div>
+      </div>
     </div>
-    <div class="flexbox-item">
-      <img src="img\background.jpg">
+    
   </div>
 </div>
-</div>
+
 
 <div id="work">
 <a name="mywork"></a>
   <div class="container">
-    <h2>My Work</h2>
+    <h2>Work</h2>
 
     <div class="container">
       <div class="row">
@@ -55,41 +96,76 @@
           <img src="img/cw_ux_img/great_gif.gif" loading="lazy"  alt="No alternative text description for this image" >
     </div> <!-- end first column -->
     <div class="col-md-6 col-lg-4"> <!--open second column(used for text)-->
-    <h3>Great Lab Technology</h3> <!--heading for the project-->
-    <p>Designing the user experience of industry-specific SaaS platform. Revolutionizing the workflow between dental surgeries and labs. </p>
-    <a href="great_lab.html" class="button">Read case study</a>
+    <h3>Automating dental practices workflows</h3> <!--heading for the project-->
+    <p>Revolutionary platform that automates workflows between dental clinics and labs. </p>
+    <a href="great_lab.html" class="button">View</a>
     </div> <!--end of second column-->
     </div> <!-- end of row that holds two columns-->
     </div> <!-- end of third project in container-->
-   
-<div class="container">
-<div class="row">
-  <div class="col-md-6 col-lg-8"><!--open first column-->
-<source scrset="img/ux_ap_img/ux_ap_desktop.png" media="(max-width:767px)">
-  <img src="img/ux_ap_img/ux_ap_desktop.png" alt="My Image">
-</div> <!-- end first column -->
-<div class="col-md-6 col-lg-4"> <!--open second column(used for text)-->
-<h3>ux.adrianpenu.com</h3> <!--heading for the project-->
-<p> The implementation of front-end principles and design thinking to build my portfolio site.</p>
-<a href="portfolio_site.html" class="button">Read case study</a>
-</div> <!--end of second column-->
-</div> <!-- end of row that holds two columns-->
-</div> <!-- end of second project in container-->
 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-8"><!--open first column-->
+          <img src="img/pumpux_img/thumbnail.png" loading="lazy"  alt="No alternative text description for this image" >
+    </div> <!-- end first column -->
+    <div class="col-md-6 col-lg-4"> <!--open second column(used for text)-->
+    <h3>Redesigning the petrol pump experience</h3> <!--heading for the project-->
+    <p>End-to-end redesign of the customer fuelling experience.</p> 
+    <a href="pump_project.html" class="button">View</a>
+    </div> <!--end of second column-->
+    </div> <!-- end of row that holds two columns-->
+    </div> <!-- end of third project in container-->
 
-<div class="container">
-<div class="row">
-  <div class="col-md-6 col-lg-8"><!--open first column-->
-<source scrset="img/fitzen_img/FitZEN_project_mobile.png" media="(max-width:767px)">
-<img src="img/fitzen_img/FitZEN_project_main_desktop.png" alt="My Image">
-</div> <!-- end first column -->
-<div class="col-md-6 col-lg-4"> <!--open second column(used for text)-->
-<h3>FitZEN</h3> <!--heading for the project-->
-<p> Conceptual project focused on implementing design principles in finding sustainable fitness solutions for users.</p>
-<a href="fitzen.html" class="button">Read case study</a>
-</div> <!--end of second column-->
-</div> <!-- end of row that holds two columns-->
-</div> <!-- end of first project in container-->
+    <!--
+    ==============================================================
+    The projects below (scanhub, portfolio_site, FitZEN) are drafts
+    and intentionally hidden. Kept as a single flat comment block
+    (no nested HTML comments inside, since HTML doesn't support
+    nesting) so they stay hidden until ready to publish.
+    ==============================================================
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-8">
+          <img src="img/cw_ux_img/great_gif.gif" loading="lazy" alt="No alternative text description for this image" >
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <h3>Unifying digital workflows</h3>
+          <p>Organising dental scans made easy.</p>
+          <a href="scanhub.html" class="button">View</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-8">
+          <source scrset="img/ux_ap_img/ux_ap_desktop.png" media="(max-width:767px)">
+          <img src="img/ux_ap_img/ux_ap_desktop.png" alt="My Image">
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <h3>Applying UX-think to portfolio</h3>
+          <p> Making my portfolio easy to navigate.</p>
+          <a href="portfolio_site.html" class="button">View</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-8">
+          <source scrset="img/fitzen_img/FitZEN_project_mobile.png" media="(max-width:767px)">
+          <img src="img/fitzen_img/FitZEN_project_main_desktop.png" alt="My Image">
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <h3>FitZEN</h3>
+          <p> Implementing design principles in finding sustainable fitness solutions.</p>
+          <a href="fitzen.html" class="button">Read case study</a>
+        </div>
+      </div>
+    </div>
+
+    -->
 
 </div>
 </main>
