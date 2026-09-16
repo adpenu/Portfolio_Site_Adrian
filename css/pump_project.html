@@ -52,6 +52,11 @@
     #fitzen picture.banner img {
       max-width: 700px;
     }
+    #fitzen picture.fullbleed,
+    #fitzen picture.fullbleed img {
+      max-width: none;
+      width: 100%;
+    }
   </style>
 </head>
 
@@ -239,7 +244,7 @@
           <p>This created a first tier of design priorities and kept the solution focused on problems supported by evidence rather than assumptions.</p>
         </div>
       </div>
-      <picture>
+      <picture class="fullbleed">
         <source scrset="img\pumpux_img\screen_10.png" media="(max-width:767px)">
         <img src="img\pumpux_img\screen_10.png" alt="Optimised flow diagram">
       </picture>
@@ -288,12 +293,12 @@
           <p> A task-oriented approach focuses each screen on one task alone. During testing I was particularly interested whether users can make decisions confidently based on the information shown on the interface.</p>
         </div>
       </div>
-      <picture>
+      <picture class="fullbleed">
         <source scrset="img\pumpux_img\screen_14.png" media="(max-width:767px)">
         <img src="img\pumpux_img\screen_14.png" alt="High fidelity mockups, current state">
       </picture>
       <br/>
-      <picture>
+      <picture class="fullbleed">
         <source scrset="img\pumpux_img\screen_15.png" media="(max-width:767px)">
         <img src="img\pumpux_img\screen_15.png" alt="High fidelity mockups, proposed solution">
       </picture>
